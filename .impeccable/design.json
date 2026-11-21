@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T18:35:00Z",
+  "title": "Design System: Fundación CO2",
+  "extensions": {
+    "colorMeta": {
+      "moss-600": {
+        "role": "primary",
+        "displayName": "Canopy Moss",
+        "canonical": "#146342",
+        "tonalRamp": [
+          "oklch(15% 0.041 160.2)",
+          "oklch(26% 0.066 160.2)",
+          "oklch(38% 0.085 160.2)",
+          "oklch(50% 0.092 160.2)",
+          "oklch(62% 0.085 160.2)",
+          "oklch(74% 0.066 160.2)",
+          "oklch(86% 0.041 160.2)",
+          "oklch(95% 0.018 160.2)"
+        ]
+      },
+      "moss-500": {
+        "role": "primary",
+        "displayName": "Emerald Canopy",
+        "canonical": "#1c7c54",
+        "tonalRamp": [
+          "oklch(15% 0.048 160.3)",
+          "oklch(26% 0.077 160.3)",
+          "oklch(38% 0.098 160.3)",
+          "oklch(50% 0.107 160.3)",
+          "oklch(62% 0.098 160.3)",
+          "oklch(74% 0.077 160.3)",
+          "oklch(86% 0.048 160.3)",
+          "oklch(95% 0.021 160.3)"
+        ]
+      },
+      "moss-700": {
+        "role": "primary",
+        "displayName": "Deep Moss",
+        "canonical": "#0e4a31",
+        "tonalRamp": [
+          "oklch(15% 0.033 160.6)",
+          "oklch(26% 0.053 160.6)",
+          "oklch(38% 0.068 160.6)",
+          "oklch(50% 0.074 160.6)",
+          "oklch(62% 0.068 160.6)",
+          "oklch(74% 0.053 160.6)",
+          "oklch(86% 0.033 160.6)",
+          "oklch(95% 0.015 160.6)"
+        ]
+      },
+      "moss-900": {
+        "role": "primary",
+        "displayName": "Shadow Canopy",
+        "canonical": "#0a291c",
+        "tonalRamp": [
+          "oklch(15% 0.02 162.6)",
+          "oklch(26% 0.032 162.6)",
+          "oklch(38% 0.04 162.6)",
+          "oklch(50% 0.044 162.6)",
+          "oklch(62% 0.04 162.6)",
+          "oklch(74% 0.032 162.6)",
+          "oklch(86% 0.02 162.6)",
+          "oklch(95% 0.009 162.6)"
+        ]
+      },
+      "moss-300": {
+        "role": "primary",
+        "displayName": "Luminous Mint",
+        "canonical": "#7ccca6",
+        "tonalRamp": [
+          "oklch(15% 0.044 162.5)",
+          "oklch(26% 0.07 162.5)",
+          "oklch(38% 0.089 162.5)",
+          "oklch(50% 0.097 162.5)",
+          "oklch(62% 0.089 162.5)",
+          "oklch(74% 0.07 162.5)",
+          "oklch(86% 0.044 162.5)",
+          "oklch(95% 0.019 162.5)"
+        ]
+      },
+      "moss-200": {
+        "role": "primary",
+        "displayName": "Pale Mint",
+        "canonical": "#b2dfc6",
+        "tonalRamp": [
+          "oklch(15% 0.026 160.6)",
+          "oklch(26% 0.042 160.6)",
+          "oklch(38% 0.053 160.6)",
+          "oklch(50% 0.058 160.6)",
+          "oklch(62% 0.053 160.6)",
+          "oklch(74% 0.042 160.6)",
+          "oklch(86% 0.026 160.6)",
+          "oklch(95% 0.012 160.6)"
+        ]
+      },
+      "moss-100": {
+        "role": "primary",
+        "displayName": "Frosted Mint",
+        "canonical": "#d5ede0",
+        "tonalRamp": [
+          "oklch(15% 0.014 162.2)",
+          "oklch(26% 0.022 162.2)",
+          "oklch(38% 0.029 162.2)",
+          "oklch(50% 0.031 162.2)",
+          "oklch(62% 0.029 162.2)",
+          "oklch(74% 0.022 162.2)",
+          "oklch(86% 0.014 162.2)",
+          "oklch(95% 0.006 162.2)"
+        ]
+      },
+      "moss-50": {
+        "role": "primary",
+        "displayName": "Whisper Mint",
+        "canonical": "#edf7f2",
+        "tonalRamp": [
+          "oklch(15% 0.005 164.8)",
+          "oklch(26% 0.009 164.8)",
+          "oklch(38% 0.011 164.8)",
+          "oklch(50% 0.012 164.8)",
+          "oklch(62% 0.011 164.8)",
+          "oklch(74% 0.009 164.8)",
+          "oklch(86% 0.005 164.8)",
+          "oklch(95% 0.002 164.8)"
+        ]
+      },
+      "amberleaf-300": {
+        "role": "secondary",
+        "displayName": "Solar Amberleaf",
+        "canonical": "#e8c27a",
+        "tonalRamp": [
+          "oklch(15% 0.045 82.6)",
+          "oklch(26% 0.072 82.6)",
+          "oklch(38% 0.092 82.6)",
+          "oklch(50% 0.1 82.6)",
+          "oklch(62% 0.092 82.6)",
+          "oklch(74% 0.072 82.6)",
+          "oklch(86% 0.045 82.6)",
+          "oklch(95% 0.02 82.6)"
+        ]
+      },
+      "amberleaf-500": {
+        "role": "secondary",
+        "displayName": "Ochre Amberleaf",
+        "canonical": "#b87b22",
+        "tonalRamp": [
+          "oklch(15% 0.056 71)",
+          "oklch(26% 0.089 71)",
+          "oklch(38% 0.114 71)",
+          "oklch(50% 0.124 71)",
+          "oklch(62% 0.114 71)",
+          "oklch(74% 0.089 71)",
+          "oklch(86% 0.056 71)",
+          "oklch(95% 0.025 71)"
+        ]
+      },
+      "ink-950": {
+        "role": "neutral",
+        "displayName": "Botanical Obsidian",
+        "canonical": "#0a1c14",
+        "tonalRamp": [
+          "oklch(15% 0.013 163.3)",
+          "oklch(26% 0.021 163.3)",
+          "oklch(38% 0.027 163.3)",
+          "oklch(50% 0.029 163.3)",
+          "oklch(62% 0.027 163.3)",
+          "oklch(74% 0.021 163.3)",
+          "oklch(86% 0.013 163.3)",
+          "oklch(95% 0.006 163.3)"
+        ]
+      },
+      "ink-900": {
+        "role": "neutral",
+        "displayName": "Deep Forest Ink",
+        "canonical": "#112a1e",
+        "tonalRamp": [
+          "oklch(15% 0.018 161.1)",
+          "oklch(26% 0.028 161.1)",
+          "oklch(38% 0.036 161.1)",
+          "oklch(50% 0.039 161.1)",
+          "oklch(62% 0.036 161.1)",
+          "oklch(74% 0.028 161.1)",
+          "oklch(86% 0.018 161.1)",
+          "oklch(95% 0.008 161.1)"
+        ]
+      },
+      "ink-800": {
+        "role": "neutral",
+        "displayName": "Forest Slate",
+        "canonical": "#204233",
+        "tonalRamp": [
+          "oklch(15% 0.022 163.5)",
+          "oklch(26% 0.035 163.5)",
+          "oklch(38% 0.044 163.5)",
+          "oklch(50% 0.048 163.5)",
+          "oklch(62% 0.044 163.5)",
+          "oklch(74% 0.035 163.5)",
+          "oklch(86% 0.022 163.5)",
+          "oklch(95% 0.01 163.5)"
+        ]
+      },
+      "ink-700": {
+        "role": "neutral",
+        "displayName": "Muted Pine",
+        "canonical": "#2f5443",
+        "tonalRamp": [
+          "oklch(15% 0.023 163.2)",
+          "oklch(26% 0.037 163.2)",
+          "oklch(38% 0.048 163.2)",
+          "oklch(50% 0.052 163.2)",
+          "oklch(62% 0.048 163.2)",
+          "oklch(74% 0.037 163.2)",
+          "oklch(86% 0.023 163.2)",
+          "oklch(95% 0.01 163.2)"
+        ]
+      },
+      "ink-600": {
+        "role": "neutral",
+        "displayName": "Sage Graphite",
+        "canonical": "#3d6351",
+        "tonalRamp": [
+          "oklch(15% 0.024 162.9)",
+          "oklch(26% 0.038 162.9)",
+          "oklch(38% 0.049 162.9)",
+          "oklch(50% 0.053 162.9)",
+          "oklch(62% 0.049 162.9)",
+          "oklch(74% 0.038 162.9)",
+          "oklch(86% 0.024 162.9)",
+          "oklch(95% 0.011 162.9)"
+        ]
+      },
+      "mist-100": {
+        "role": "neutral",
+        "displayName": "Pale Canopy Mist",
+        "canonical": "#edf1eb",
+        "tonalRamp": [
+          "oklch(15% 0.004 134.9)",
+          "oklch(26% 0.006 134.9)",
+          "oklch(38% 0.008 134.9)",
+          "oklch(50% 0.009 134.9)",
+          "oklch(62% 0.008 134.9)",
+          "oklch(74% 0.006 134.9)",
+          "oklch(86% 0.004 134.9)",
+          "oklch(95% 0.002 134.9)"
+        ]
+      },
+      "mist-200": {
+        "role": "neutral",
+        "displayName": "Atmospheric Mist",
+        "canonical": "#dfe7e0",
+        "tonalRamp": [
+          "oklch(15% 0.006 149.2)",
+          "oklch(26% 0.009 149.2)",
+          "oklch(38% 0.012 149.2)",
+          "oklch(50% 0.013 149.2)",
+          "oklch(62% 0.012 149.2)",
+          "oklch(74% 0.009 149.2)",
+          "oklch(86% 0.006 149.2)",
+          "oklch(95% 0.003 149.2)"
+        ]
+      },
+      "smoked-void": {
+        "role": "neutral",
+        "displayName": "Smoked Canopy Void",
+        "canonical": "#0b1d16",
+        "tonalRamp": [
+          "oklch(15% 0.013 166.6)",
+          "oklch(26% 0.02 166.6)",
+          "oklch(38% 0.026 166.6)",
+          "oklch(50% 0.028 166.6)",
+          "oklch(62% 0.026 166.6)",
+          "oklch(74% 0.02 166.6)",
+          "oklch(86% 0.013 166.6)",
+          "oklch(95% 0.006 166.6)"
+        ]
+      },
+      "smoked-ink": {
+        "role": "neutral",
+        "displayName": "Smoked Mist Ink",
+        "canonical": "#f2f7f4",
+        "tonalRamp": [
+          "oklch(15% 0.003 160.1)",
+          "oklch(26% 0.005 160.1)",
+          "oklch(38% 0.006 160.1)",
+          "oklch(50% 0.007 160.1)",
+          "oklch(62% 0.006 160.1)",
+          "oklch(74% 0.005 160.1)",
+          "oklch(86% 0.003 160.1)",
+          "oklch(95% 0.001 160.1)"
+        ]
+      },
+      "pure-white": {
+        "role": "neutral",
+        "displayName": "Pure Specular White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(86% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "error-crimson": {
+        "role": "semantic",
+        "displayName": "Validation Crimson",
+        "canonical": "#b91c1c",
+        "tonalRamp": [
+          "oklch(15% 0.086 27.5)",
+          "oklch(26% 0.137 27.5)",
+          "oklch(38% 0.175 27.5)",
+          "oklch(50% 0.19 27.5)",
+          "oklch(62% 0.175 27.5)",
+          "oklch(74% 0.137 27.5)",
+          "oklch(86% 0.086 27.5)",
+          "oklch(95% 0.038 27.5)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero manifesto H1 headline only, paired with -0.03em letter-spacing and text-wrap: balance."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major editorial section H2 headings across Institutional, Programs, Bitácora, Donations, and Contact."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Bento card H3 headings, reader dialog headline, blockquote lead, and high-impact CTA labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Warm human reading copy constrained to 46ch–62ch measures with text-wrap: pretty."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked form labels, category filter chips, status badges, and compact action triggers."
+      },
+      "mono": {
+        "displayName": "Tabular Mono",
+        "purpose": "Reserved exclusively for measurable field metrics, publication dates, phone numbers, and bank account coordinates."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-sheet",
+        "value": "inset 0 1px 0 0 rgba(255, 255, 255, 0.88), inset 0 -1px 0 0 rgba(10, 28, 20, 0.06), 0 18px 36px -22px rgba(9, 28, 19, 0.2)",
+        "purpose": "Z1 base frosted sheet resting elevation with top specular highlight."
+      },
+      {
+        "name": "glass-sheet-hover",
+        "value": "inset 0 1px 0 0 rgba(255, 255, 255, 0.94), inset 0 -1px 0 0 rgba(10, 28, 20, 0.08), 0 24px 44px -20px rgba(9, 28, 19, 0.26)",
+        "purpose": "Z1 base glass elevation when lifted -3px on hover."
+      },
+      {
+        "name": "glass-floating",
+        "value": "inset 0 1px 0 0 rgba(255, 255, 255, 0.96), inset 0 -1px 0 0 rgba(10, 28, 20, 0.08), 0 24px 48px -20px rgba(9, 28, 19, 0.26), 0 6px 16px -6px rgba(9, 28, 19, 0.1)",
+        "purpose": "Z2 elevated floating glass plate used for navigation, hero QR plaque, reader dialog, and active forms."
+      },
+      {
+        "name": "glass-floating-hover",
+        "value": "inset 0 1px 0 0 rgba(255, 255, 255, 0.98), inset 0 -1px 0 0 rgba(10, 28, 20, 0.1), 0 30px 58px -20px rgba(9, 28, 19, 0.32)",
+        "purpose": "Z2 floating glass elevation when lifted -3px on hover."
+      },
+      {
+        "name": "glass-smoked",
+        "value": "inset 0 1px 0 0 rgba(213, 237, 224, 0.22), inset 0 -1px 0 0 rgba(0, 0, 0, 0.36), 0 24px 52px -22px rgba(5, 16, 11, 0.5)",
+        "purpose": "Z3 dark smoked botanical glass anchor used for mission card, youth education, donation mesa, footer, and toast."
+      },
+      {
+        "name": "glass-smoked-hover",
+        "value": "inset 0 1px 0 0 rgba(213, 237, 224, 0.3), inset 0 -1px 0 0 rgba(0, 0, 0, 0.42), 0 30px 58px -20px rgba(4, 14, 9, 0.6)",
+        "purpose": "Z3 smoked glass elevation when lifted -3px on hover."
+      },
+      {
+        "name": "modern-dialog-backdrop",
+        "value": "rgba(8, 22, 16, 0.56) with backdrop-filter: blur(10px)",
+        "purpose": "Translucent dark canopy scrim behind open native <dialog> article reader."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-tactile",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Global tactile deceleration curve governing glass elevation, buttons, dialog entry, and accordions."
+      },
+      {
+        "name": "glass-surface-transition",
+        "value": "transform 0.52s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.52s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Smooth -3px lift and shadow deepening on interactive .glass-hover panels."
+      },
+      {
+        "name": "tactile-button-transition",
+        "value": "transform 0.36s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.36s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.28s ease",
+        "purpose": "Responsive -2px hover lift and 0.985 active press compression on primary actions."
+      },
+      {
+        "name": "dialog-entry",
+        "value": "0.28s cubic-bezier(0.16, 1, 0.3, 1) allow-discrete",
+        "purpose": "Native <dialog> and ::backdrop discrete transition using @starting-style."
+      },
+      {
+        "name": "popover-entry",
+        "value": "0.24s cubic-bezier(0.16, 1, 0.3, 1) allow-discrete",
+        "purpose": "Manual Popover API toast entrance and exit."
+      },
+      {
+        "name": "accordion-disclosure",
+        "value": "block-size 0.34s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Native <details> smooth height expansion powered by interpolate-size: allow-keywords."
+      },
+      {
+        "name": "ambient-orb-drift",
+        "value": "26s–34s ease-in-out infinite alternate",
+        "purpose": "Slow organic drift keyframes (driftA/B/C) across four blurred radial canopy orbs behind glass panels; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Tactile Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Botanical obsidian primary CTA with inset directional arrow badge and spring-deceleration lift.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\"><span class=\"ds-btn-primary-label\">Donar por QR Simple</span><span class=\"ds-btn-primary-icon\" aria-hidden=\"true\"><svg width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 17L17 7M17 7H8M17 7v9\"/></svg></span></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 16px; background-color: #0a1c14; color: #ffffff; border: none; border-radius: 16px; padding: 14px 24px; cursor: pointer; box-shadow: 0 10px 15px -3px rgba(10, 28, 20, 0.18), 0 4px 6px -4px rgba(10, 28, 20, 0.12); transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.36s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.28s ease; } .ds-btn-primary-label { font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-weight: 700; font-size: 1.0625rem; letter-spacing: -0.02em; line-height: 1.25; } .ds-btn-primary-icon { width: 36px; height: 36px; border-radius: 12px; background-color: rgba(255, 255, 255, 0.1); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background-color 0.28s ease; } .ds-btn-primary:hover { background-color: #0e4a31; transform: translateY(-2px); box-shadow: 0 16px 26px -6px rgba(10, 28, 20, 0.28); } .ds-btn-primary:hover .ds-btn-primary-icon { background-color: #1c7c54; } .ds-btn-primary:active { transform: translateY(0) scale(0.985); } .ds-btn-primary:focus-visible { outline: 2px solid #146342; outline-offset: 3px; }"
+    },
+    {
+      "name": "Smoked-Surface Mint CTA Button",
+      "kind": "button",
+      "refersTo": "button-mint",
+      "description": "High-contrast luminous mint primary action rendered exclusively inside dark Z3 smoked-glass panels.",
+      "html": "<div class=\"ds-smoked-stage\"><button type=\"button\" class=\"ds-btn-mint\"><svg width=\"20\" height=\"20\" fill=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.094 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.531.078-1.203.109-1.938-.125-.453-.141-1.031-.344-1.766-.672-3.109-1.344-5.141-4.484-5.297-4.688-.156-.203-1.266-1.688-1.266-3.219 0-1.531.797-2.281 1.078-2.594.281-.313.625-.391.828-.391.203 0 .422.016.609.016.188 0 .453-.078.703.531.266.625.891 2.172.969 2.328.078.156.125.344.016.547-.109.203-.156.344-.313.531-.156.188-.328.406-.469.547-.156.156-.328.328-.141.641.188.313.844 1.391 1.813 2.25 1.25 1.109 2.297 1.453 2.609 1.609.313.156.5.141.688-.078.188-.219.797-.922 1.016-1.234.219-.313.438-.266.734-.156.297.109 1.891.891 2.219 1.047.328.156.547.234.625.375.078.141.078.813-.172 1.516z\"/></svg><span>Enviar comprobante por WhatsApp</span></button></div>",
+      "css": ".ds-smoked-stage { padding: 20px; border-radius: 24px; background: linear-gradient(148deg, rgba(11, 29, 22, 0.9) 0%, rgba(7, 20, 15, 0.86) 100%); box-shadow: inset 0 1px 0 0 rgba(213, 237, 224, 0.22), 0 18px 40px -18px rgba(5, 16, 11, 0.55); } .ds-btn-mint { width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 12px; background-color: #7ccca6; color: #0a1c14; border: none; border-radius: 16px; padding: 16px 24px; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-weight: 800; font-size: 1.0625rem; letter-spacing: -0.02em; cursor: pointer; box-shadow: 0 20px 25px -5px rgba(5, 16, 11, 0.35); transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.36s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.28s ease; } .ds-btn-mint:hover { background-color: #b2dfc6; transform: translateY(-2px); } .ds-btn-mint:active { transform: translateY(0) scale(0.985); } .ds-btn-mint:focus-visible { outline: 2px solid #b2dfc6; outline-offset: 3px; }"
+    },
+    {
+      "name": "Category Filter Chips",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "Toggleable journal category buttons transitioning from frosted translucent white to solid botanical obsidian when active.",
+      "html": "<div class=\"ds-chip-group\" role=\"group\" aria-label=\"Filtrar crónicas por categoría\"><button type=\"button\" class=\"ds-chip-filter\" aria-pressed=\"true\">Todas</button><button type=\"button\" class=\"ds-chip-filter\" aria-pressed=\"false\">Reforestación</button><button type=\"button\" class=\"ds-chip-filter\" aria-pressed=\"false\">Educación</button></div>",
+      "css": ".ds-chip-group { display: flex; flex-wrap: wrap; gap: 8px; } .ds-chip-filter { padding: 10px 16px; border-radius: 12px; border: 1px solid rgba(10, 28, 20, 0.1); background-color: rgba(255, 255, 255, 0.75); color: #204233; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; line-height: 1.33; cursor: pointer; transition: background-color 0.24s ease, color 0.24s ease, border-color 0.24s ease; } .ds-chip-filter:hover { background-color: #ffffff; color: #0a1c14; } .ds-chip-filter[aria-pressed=\"true\"] { background-color: #0a1c14; color: #ffffff; border-color: #0a1c14; } .ds-chip-filter:focus-visible { outline: 2px solid #146342; outline-offset: 3px; }"
+    },
+    {
+      "name": "Floating Glass Bento Card",
+      "kind": "card",
+      "refersTo": "card-glass-floating",
+      "description": "Elevated Z2 frosted panel featuring masked 1px specular gradient rim, hairline subdivision, and tabular metric readout.",
+      "html": "<div class=\"ds-ambient-stage\"><article class=\"ds-card-floating\"><div class=\"ds-card-header\"><h3 class=\"ds-card-title\">Huella de carbono cero</h3><span class=\"ds-card-badge\">Verificable</span></div><p class=\"ds-card-body\">Compensamos emisiones locales financiando viveros comunitarios y seguimiento trimestral de especies nativas en Bolivia.</p><div class=\"ds-card-footer\"><span class=\"ds-card-metric\"><strong class=\"ds-mono-value\">420 t</strong> CO₂/año</span><a href=\"#programas\" class=\"ds-card-link\"><span>Ver impacto</span><svg width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 12h14m-6-6l6 6-6 6\"/></svg></a></div></article></div>",
+      "css": ".ds-ambient-stage { padding: 24px; border-radius: 32px; background: radial-gradient(circle at 18% 20%, rgba(235, 223, 198, 0.9), transparent 56%), radial-gradient(circle at 86% 24%, rgba(190, 224, 206, 0.9), transparent 54%), #dfe7e0; } .ds-card-floating { position: relative; isolation: isolate; border-radius: 28px; padding: 28px; color: #0a1c14; background: linear-gradient(148deg, rgba(255, 255, 255, 0.84) 0%, rgba(246, 250, 247, 0.64) 100%); backdrop-filter: blur(24px) saturate(190%); -webkit-backdrop-filter: blur(24px) saturate(190%); box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.96), inset 0 -1px 0 0 rgba(10, 28, 20, 0.08), 0 24px 48px -20px rgba(9, 28, 19, 0.26), 0 6px 16px -6px rgba(9, 28, 19, 0.1); transition: transform 0.52s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.52s cubic-bezier(0.16, 1, 0.3, 1); } .ds-card-floating::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2; background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.44) 46%, rgba(20, 99, 66, 0.18) 80%, rgba(255, 255, 255, 0.82) 100%); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask-composite: exclude; } .ds-card-floating:hover { transform: translateY(-3px); box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.98), inset 0 -1px 0 0 rgba(10, 28, 20, 0.1), 0 30px 58px -20px rgba(9, 28, 19, 0.32); } .ds-card-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; } .ds-card-title { margin: 0; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-size: 1.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.2; color: #0a1c14; } .ds-card-badge { background-color: #d5ede0; color: #0e4a31; border-radius: 9999px; padding: 4px 12px; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; } .ds-card-body { margin: 14px 0 0; max-width: 54ch; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 1rem; line-height: 1.6; color: #204233; text-wrap: pretty; } .ds-card-footer { margin-top: 22px; padding-top: 16px; border-top: 1px solid rgba(10, 28, 20, 0.1); display: flex; align-items: center; justify-content: space-between; gap: 16px; } .ds-card-metric { font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; color: #0e4a31; } .ds-mono-value { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace; font-variant-numeric: tabular-nums; font-weight: 700; } .ds-card-link { display: inline-flex; align-items: center; gap: 6px; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #0e4a31; text-decoration: none; border-radius: 8px; padding: 4px 6px; transition: color 0.24s ease; } .ds-card-link:hover { color: #0a1c14; } .ds-card-link:focus-visible { outline: 2px solid #146342; outline-offset: 3px; }"
+    },
+    {
+      "name": "Native-Validated Form Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Translucent white glass input with uppercase tracked label, Canopy Moss focus ring, and CSS :user-invalid validation state.",
+      "html": "<div class=\"ds-field-group\"><label for=\"ds-contact-name\" class=\"ds-field-label\">Nombre completo *</label><input id=\"ds-contact-name\" name=\"name\" type=\"text\" required minlength=\"3\" placeholder=\"Ej. Lucía Mendoza\" class=\"ds-input\" /><p class=\"ds-field-error\">Ingresa tu nombre completo (mínimo 3 caracteres).</p></div>",
+      "css": ".ds-field-group { display: flex; flex-direction: column; } .ds-field-label { font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #204233; margin-bottom: 6px; } .ds-input { box-sizing: border-box; width: 100%; padding: 14px 16px; border-radius: 12px; border: 1px solid rgba(10, 28, 20, 0.15); background-color: rgba(255, 255, 255, 0.8); color: #0a1c14; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; line-height: 1.5; transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; } .ds-input::placeholder { color: #365949; opacity: 1; } .ds-input:hover { background-color: rgba(255, 255, 255, 0.94); } .ds-input:focus-visible { outline: 2px solid #146342; outline-offset: 0; border-color: #146342; background-color: #ffffff; } .ds-input:user-valid { border-color: #146342; } .ds-input:user-invalid { border-color: #b91c1c; background-color: rgba(254, 242, 242, 0.9); } .ds-field-error { display: none; margin: 4px 0 0; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; color: #b91c1c; } .ds-input:user-invalid + .ds-field-error { display: block; }"
+    },
+    {
+      "name": "Floating Glass Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav-header",
+      "description": "Floating Z2 header capsule pairing the CO2 brand emblem with inline anchor pills and compact QR donation CTA.",
+      "html": "<header class=\"ds-nav-bar\"><a href=\"#inicio\" class=\"ds-nav-brand\"><span class=\"ds-nav-emblem\" aria-hidden=\"true\">CO<sub>2</sub></span><span class=\"ds-nav-brand-text\"><strong class=\"ds-nav-brand-name\">Fundación CO2</strong><span class=\"ds-nav-brand-loc\">Bolivia</span></span></a><nav class=\"ds-nav-links\" aria-label=\"Navegación principal\"><a href=\"#institucional\" class=\"ds-nav-link\">Nosotros</a><a href=\"#programas\" class=\"ds-nav-link\">Programas</a><a href=\"#noticias\" class=\"ds-nav-link\">Bitácora</a></nav><a href=\"#donaciones\" class=\"ds-nav-cta\"><span>Donar con QR</span><svg width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 17L17 7M17 7H8M17 7v9\"/></svg></a></header>",
+      "css": ".ds-nav-bar { position: relative; isolation: isolate; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-radius: 24px; padding: 12px 20px; background: linear-gradient(148deg, rgba(255, 255, 255, 0.84) 0%, rgba(246, 250, 247, 0.64) 100%); backdrop-filter: blur(24px) saturate(190%); -webkit-backdrop-filter: blur(24px) saturate(190%); box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.96), inset 0 -1px 0 0 rgba(10, 28, 20, 0.08), 0 24px 48px -20px rgba(9, 28, 19, 0.26), 0 6px 16px -6px rgba(9, 28, 19, 0.1); } .ds-nav-bar::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2; background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.44) 46%, rgba(20, 99, 66, 0.18) 80%, rgba(255, 255, 255, 0.82) 100%); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask-composite: exclude; } .ds-nav-brand { display: inline-flex; align-items: center; gap: 12px; padding: 4px; border-radius: 12px; text-decoration: none; } .ds-nav-brand:focus-visible { outline: 2px solid #146342; outline-offset: 3px; } .ds-nav-emblem { width: 40px; height: 40px; border-radius: 12px; background-color: #0a1c14; color: #d5ede0; display: inline-flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-weight: 800; font-size: 0.875rem; letter-spacing: -0.02em; } .ds-nav-emblem sub { font-size: 0.72em; color: #7ccca6; } .ds-nav-brand-text { display: flex; flex-direction: column; line-height: 1.2; } .ds-nav-brand-name { font-family: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif; font-weight: 700; font-size: 1.0625rem; letter-spacing: -0.02em; color: #0a1c14; } .ds-nav-brand-loc { font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; color: #2f5443; } .ds-nav-links { display: flex; align-items: center; gap: 4px; } .ds-nav-link { padding: 8px 14px; border-radius: 12px; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; color: #204233; text-decoration: none; transition: background-color 0.2s ease, color 0.2s ease; } .ds-nav-link:hover { background-color: rgba(255, 255, 255, 0.75); color: #0a1c14; } .ds-nav-link:focus-visible { outline: 2px solid #146342; outline-offset: 3px; } .ds-nav-cta { display: inline-flex; align-items: center; gap: 8px; background-color: #0a1c14; color: #edf7f2; padding: 10px 16px; border-radius: 12px; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; box-shadow: 0 4px 10px -2px rgba(10, 28, 20, 0.22); transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.28s ease; } .ds-nav-cta svg { color: #7ccca6; } .ds-nav-cta:hover { background-color: #0e4a31; transform: translateY(-2px); } .ds-nav-cta:focus-visible { outline: 2px solid #146342; outline-offset: 3px; }"
+    },
+    {
+      "name": "Smoked Donation Tier Selector",
+      "kind": "custom",
+      "refersTo": "tier-selector",
+      "description": "Signature Z3 smoked-glass amount picker pairing rare Solar Amberleaf highlights with Luminous Mint selected borders and tabular figures.",
+      "html": "<div class=\"ds-mesa-shell\"><div class=\"ds-tier-grid\" role=\"group\" aria-label=\"Montos referenciales de donación\"><button type=\"button\" class=\"ds-tier-card\" aria-pressed=\"false\"><span class=\"ds-tier-tag\">Semilla</span><span class=\"ds-tier-amount\">50 Bs</span><span class=\"ds-tier-impact\">5 árboles nativos</span></button><button type=\"button\" class=\"ds-tier-card\" aria-pressed=\"true\"><span class=\"ds-tier-tag ds-tier-tag-rec\">Recomendado</span><span class=\"ds-tier-amount\">150 Bs</span><span class=\"ds-tier-impact\">15 árboles y taller</span></button><button type=\"button\" class=\"ds-tier-card\" aria-pressed=\"false\"><span class=\"ds-tier-tag\">Parcela</span><span class=\"ds-tier-amount\">350 Bs</span><span class=\"ds-tier-impact\">Micro-parcela verde</span></button></div></div>",
+      "css": ".ds-mesa-shell { position: relative; isolation: isolate; border-radius: 28px; padding: 24px; color: #f2f7f4; background: linear-gradient(148deg, rgba(11, 29, 22, 0.86) 0%, rgba(7, 20, 15, 0.8) 100%); backdrop-filter: blur(22px) saturate(180%); -webkit-backdrop-filter: blur(22px) saturate(180%); box-shadow: inset 0 1px 0 0 rgba(213, 237, 224, 0.22), inset 0 -1px 0 0 rgba(0, 0, 0, 0.36), 0 24px 52px -22px rgba(5, 16, 11, 0.5); } .ds-mesa-shell::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2; background: linear-gradient(135deg, rgba(213, 237, 224, 0.44) 0%, rgba(255, 255, 255, 0.12) 40%, rgba(232, 194, 122, 0.24) 78%, rgba(255, 255, 255, 0.2) 100%); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask-composite: exclude; } .ds-tier-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; } .ds-tier-card { display: flex; flex-direction: column; text-align: left; padding: 14px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); background-color: rgba(255, 255, 255, 0.05); cursor: pointer; transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.28s ease, border-color 0.28s ease; } .ds-tier-card:hover { background-color: rgba(255, 255, 255, 0.1); transform: translateY(-2px); } .ds-tier-card:active { transform: translateY(0) scale(0.985); } .ds-tier-card[aria-pressed=\"true\"] { border-color: #7ccca6; background-color: rgba(28, 124, 84, 0.3); } .ds-tier-card:focus-visible { outline: 2px solid #b2dfc6; outline-offset: 3px; } .ds-tier-tag { font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; color: #b2dfc6; } .ds-tier-tag-rec { font-weight: 600; color: #e8c27a; } .ds-tier-amount { margin-top: 2px; font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace; font-variant-numeric: tabular-nums; font-size: 1.25rem; font-weight: 800; letter-spacing: -0.03em; color: #ffffff; } .ds-tier-impact { margin-top: 2px; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; color: #d5ede0; }"
+    },
+    {
+      "name": "Native FAQ Glass Accordion",
+      "kind": "custom",
+      "refersTo": "accordion-faq",
+      "description": "Native <details> disclosure list inside a Z1 base glass sheet with 1px ink hairlines and rotating plus indicator.",
+      "html": "<div class=\"ds-accordion-sheet\"><details class=\"ds-accordion\" open><summary class=\"ds-accordion-summary\"><span>¿El QR Simple funciona desde cualquier banco en Bolivia?</span><svg class=\"ds-accordion-plus\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 5v14m-7-7h14\"/></svg></summary><div class=\"ds-accordion-body\">Sí. El QR Simple es interoperable en todo el sistema financiero boliviano sin comisiones.</div></details><details class=\"ds-accordion\"><summary class=\"ds-accordion-summary\"><span>¿Puedo elegir a qué programa se destina mi aporte?</span><svg class=\"ds-accordion-plus\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 5v14m-7-7h14\"/></svg></summary><div class=\"ds-accordion-body\">Sí. Al enviarnos tu comprobante por WhatsApp puedes elegir Reforestación Nativa, Educación Ambiental o fondo general.</div></details></div>",
+      "css": ".ds-accordion-sheet { position: relative; isolation: isolate; border-radius: 28px; padding: 24px 28px; background: linear-gradient(148deg, rgba(255, 255, 255, 0.56) 0%, rgba(241, 246, 242, 0.36) 100%); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.88), inset 0 -1px 0 0 rgba(10, 28, 20, 0.06), 0 18px 36px -22px rgba(9, 28, 19, 0.2); } .ds-accordion-sheet::before { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 2; background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.34) 42%, rgba(20, 99, 66, 0.14) 76%, rgba(255, 255, 255, 0.64) 100%); -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask-composite: exclude; } .ds-accordion { border-top: 1px solid rgba(10, 28, 20, 0.1); } .ds-accordion:last-child { border-bottom: 1px solid rgba(10, 28, 20, 0.1); } .ds-accordion-summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0; cursor: pointer; list-style: none; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.9375rem; font-weight: 600; color: #0a1c14; border-radius: 8px; transition: color 0.2s ease; } .ds-accordion-summary::-webkit-details-marker { display: none; } .ds-accordion-summary:hover { color: #0e4a31; } .ds-accordion-summary:focus-visible { outline: 2px solid #146342; outline-offset: 3px; } .ds-accordion-plus { color: #0e4a31; flex-shrink: 0; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); } .ds-accordion[open] .ds-accordion-plus { transform: rotate(45deg); } .ds-accordion-body { padding-bottom: 18px; max-width: 62ch; font-family: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif; font-size: 0.9375rem; line-height: 1.6; color: #204233; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Architectural Glass over Living Canopy",
+    "overview": "Fundación CO2 presents Bolivian environmental restoration not as a dense administrative portal, but as architectural frosted glass planes suspended above sunlit forest mist. Three physical Z-planes—translucent base sheets, elevated milk-glass plates, and deep botanical smoked panels—hover over a fixed living canvas (`ambient-canvas`) of slow-drifting canopy, sunlight, mineral, and deep-shade radial orbs.\n\nLayout density stays calm and editorial through asymmetric 12-column bento compositions separated by generous vertical rhythm (`80px` to `112px`). Expressive `Bricolage Grotesque` display typography compressed to `-0.03em` tracking anchors every section alongside warm humanist `Source Sans 3` copy and tabular `JetBrains Mono` reserved exclusively for verified field metrics, dates, phone coordinates, and bank numbers. Motion is governed by a tactile spring-deceleration easing curve (`cubic-bezier(0.16, 1, 0.3, 1)`), cursor-tracked radial specular sheens on desktop, and zero-bloat native browser primitives (`<dialog>`, `[popover=\"manual\"]`, `<details>`, `:user-invalid`, and View Transitions).\n\nThe system explicitly rejects generic centered two-button hero templates, uniform 3-column card rows, nested cards-inside-cards, decorative pulsing status dots, synthetic background grid lines, and fabricated technical telemetry tags (`SEC_01`, `VAL_01`, `PROG_01`).",
+    "keyCharacteristics": [
+      "Three-Tier Physical Glass Depth: Distinct translucent base sheets (`blur(20px)`), elevated floating plates (`blur(24px)`), and dark smoked botanical panels (`blur(22px)`) over a drifting 4-orb ambient canvas.",
+      "Specular 1px Gradient Edges: Every glass surface carries a `mask-composite: exclude` gradient bezel (`::before`) and desktop pointer-tracking radial sheen (`--mx` / `--my` via `SpecularTrackDirective`) rather than flat opaque borders.",
+      "Editorial Type Discipline: High-character `Bricolage Grotesque` (`-0.03em`) paired with legible `Source Sans 3` (`1.6` line-height) and `JetBrains Mono` restricted strictly to measurable figures, dates, phone numbers, and bank coordinates.",
+      "Asymmetric 12-Column Bento Rhythm: Generous `1280px` editorial layouts using `7 / 5`, `8 / 4`, `6 / 6`, and full-width splits with deliberate Z-axis overlaps on desktop.",
+      "Native Web Platform Primitives: Interactive `<dialog>` reader with `@starting-style` backdrop blur, manual Popover API toast notifications, CSS `block-size` `<details>` accordions (`interpolate-size: allow-keywords`), auto-growing textareas (`field-sizing: content`), and View Transitions category filtering."
+    ],
+    "rules": [
+      {
+        "name": "The Smoked-Polarity Inversion Rule",
+        "body": "On light glass (`glass-sheet` and `glass-floating`), primary actions fill with `ink-950` and hover to `moss-700`, while focus rings render in `moss-600`. Inside `glass-smoked`, polarity inverts: primary actions fill with `moss-300` over `ink-950` text, hover to `moss-200`, and focus rings switch to `moss-200` to preserve AA legibility.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rare Amberleaf Rule",
+        "body": "`amberleaf-300` appears strictly on dark `glass-smoked` surfaces to spotlight the recommended donation tier, live selection feedback, and warm edge refraction—never as a light-surface button fill or generic badge background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Real-Data-Only Mono Rule",
+        "body": "`JetBrains Mono` with `tabular-nums` is restricted solely to authentic measurable numbers, dates, phone numbers, and bank coordinates—never to decorative section prefixes, fake status codes, or prose labels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Editorial Measure Cap Rule",
+        "body": "Body copy never runs unrestrained across wide bento columns; paragraphs cap between `46ch` and `62ch` (`max-w-[46ch]` to `max-w-[62ch]`) with `text-wrap: pretty`, while `.display-title` headings apply `text-wrap: balance`.",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Nested-Cards Rule",
+        "body": "Never nest glass cards inside glass cards. Internal sub-sections inside any panel separate via `1px` translucent hairlines (`rgba(10, 28, 20, 0.10)` on light glass, `rgba(255, 255, 255, 0.15)` on smoked glass) and whitespace rather than secondary boxed containers.",
+        "section": "layout"
+      },
+      {
+        "name": "The Asymmetric Bento Tension Rule",
+        "body": "Multi-column rows reject uniform three-card `4 / 4 / 4` symmetry in favor of weighted proportions (`7 / 5`, `8 / 4`, `5 / 7`) and purposeful Z-axis overlaps on desktop.",
+        "section": "layout"
+      },
+      {
+        "name": "The Three-Strata Glass Rule",
+        "body": "Every content container belongs explicitly to Z1 (`glass-sheet` for ambient reading), Z2 (`glass-floating` for elevated navigation, active forms, and Z-overlaps), or Z3 (`glass-smoked` for high-priority dark focal anchors)—never flat unlayered opaque boxes over the ambient orbs.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Specular Rim Light Rule",
+        "body": "Glass bezels are drawn as `1px` directional gradient edges via `::before` with `mask-composite: exclude` (catching bright white light top-left and moss or amberleaf refraction bottom-right) paired with top `inset` highlights rather than uniform opaque CSS strokes.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Concentric Radius Hierarchy Rule",
+        "body": "Corner rounding scales monotonically with element footprint: `28px–32px` for primary bento panels and footer shells, `16px` for compact floating cards and hero/form CTAs, `12px` for form fields and control chips, and `9999px` solely for micro-status tags and circular close icons.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do assign every container explicitly to Z1 (`glass-sheet`), Z2 (`glass-floating`), or Z3 (`glass-smoked`) over the ambient orb canvas so visual hierarchy reads through glass opacity and elevation.",
+      "Do preserve the `1px` masked gradient specular border (`::before` + `mask-composite: exclude`) and desktop pointer-tracking highlight (`--mx` / `--my`) on glass panels.",
+      "Do restrict `JetBrains Mono` (`tabular-figures`) strictly to verifiable quantitative figures, dates, phone numbers, and bank accounts (`1000-0045-8921-02`).",
+      "Do use `amberleaf-300` (`#e8c27a`) sparingly on `glass-smoked` surfaces to spotlight recommended donation tiers and live selection readouts.",
+      "Do rely on native browser capabilities (`<dialog>`, `[popover=\"manual\"]`, `<details>` with `interpolate-size: allow-keywords`, `:user-invalid`, `field-sizing: content`) and honor `prefers-reduced-motion: reduce`.",
+      "Do keep focus rings high-contrast (`2px solid #146342` with `3px` offset on light glass; `2px solid #b2dfc6` inside `.glass-smoked`) and constrain body prose to `46ch–62ch`."
+    ],
+    "donts": [
+      "Don't nest glass cards inside other glass cards; separate internal data groups with subtle `1px` translucent hairlines (`rgba(10, 28, 20, 0.10)` or `rgba(255, 255, 255, 0.15)`).",
+      "Don't default to symmetric centered two-button heroes or uniform 3-column equal-height card rows; maintain asymmetric 12-column bento ratios (`7 / 5`, `8 / 4`, `5 / 7`).",
+      "Don't reintroduce decorative AI status codes (`SEC_01`, `VAL_01`, `PROG_01`), pulsing status dots, synthetic background grid lines, or commercial placeholder labels (`Demo Admin`).",
+      "Don't apply `Bricolage Grotesque` `-0.03em` display tracking onto long body paragraphs or drop `Source Sans 3` below `1rem` (`16px`) and `1.6` line-height for main reading copy.",
+      "Don't depend on external Google Fonts or third-party CSS/icon CDNs at runtime; all fonts (`.woff2`), inline SVGs, and imagery must remain self-contained for static cPanel hosting."
+    ]
+  }
+}

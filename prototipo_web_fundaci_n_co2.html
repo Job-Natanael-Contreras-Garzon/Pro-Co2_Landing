@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <!-- =======================================================================
+         METADATOS SEO TÉCNICO INICIAL (Propuesta Base — Fundación CO2)
+         Optimizado para Google Search Console, indexación semántica y redes
+    ======================================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0d2219">
+    <title>Fundación CO2 — Arquitectura Viva, Reforestación y Acción Climática en Bolivia</title>
+    <meta name="description" content="Fundación CO2 impulsa la reforestación nativa, educación ambiental y compensación de huella de carbono en Bolivia. Conoce nuestros programas y apoya con QR Simple.">
+    <meta name="keywords" content="Fundación CO2, medio ambiente Bolivia, reforestación nativa, huella de carbono, donaciones QR Simple Bolivia, ONG ambiental, acción climática">
+    <meta name="author" content="Fundación CO2">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fundación CO2 — Acción Climática y Bosques Nativos">
+    <meta property="og:description" content="Transformamos la huella de carbono en ecosistemas vivos mediante reforestación, educación juvenil y alianzas sostenibles en Bolivia.">
+    <meta property="og:locale" content="es_BO">
+
+    <!-- Datos estructurados Schema.org (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Fundación CO2",
+      "description": "Organización boliviana dedicada a la reforestación nativa, educación climática y reducción de la huella de carbono.",
+      "email": "contrerasjob123@gmail.com",
+      "telephone": "+59174962427",
+      "areaServed": "BO"
+    }
+    </script>
+
+    <!-- Tipografía Editorial + Cuerpo + Monoespaciada Técnica -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['"Bricolage Grotesque"', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        ink: {
+                            950: '#091711',
+                            900: '#0f251c',
+                            800: '#1c3a2d',
+                            600: '#39574a',
+                            500: '#557265',
+                        },
+                        moss: {
+                            50: '#edf7f2',
+                            100: '#d4ede0',
+                            300: '#7ccca6',
+                            500: '#1c7c54',
+                            600: '#146342',
+                            700: '#0e4a31',
+                            900: '#0a291c',
+                        },
+                        amberleaf: {
+                            300: '#e9c47c',
+                            500: '#c78c32',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- =======================================================================
+         SISTEMA DE DISEÑO: GLASSMORPHISM ARQUITECTÓNICO + MODERN WEB GUIDANCE
+         Cristal físico multicapa, bordes especulares 1px, refracción sobre malla
+         orgánica viva, microinteracciones táctiles y capacidades nativas web
+    ======================================================================== -->
+    <style>
+        :root {
+            --ease-tactile: cubic-bezier(0.16, 1, 0.3, 1);
+            --glass-bg-light: rgba(250, 252, 248, 0.54);
+            --glass-bg-elevated: rgba(255, 255, 255, 0.72);
+            --glass-bg-obsidian: rgba(11, 29, 22, 0.74);
+            --glass-bg-obsidian-deep: rgba(7, 20, 15, 0.84);
+            interpolate-size: allow-keywords;
+            accent-color: #1c7c54;
+        }
+
+        html {
+            background-color: #e4e8e1;
+        }
+
+        body {
+            color: #0f251c;
+            background-color: transparent;
+        }
+
+        /* -------------------------------------------------------------------
+         * 1. TIPOGRAFÍA EDITORIAL CON CARÁCTER
+         * ------------------------------------------------------------------- */
+        .display-title {
+            font-family: "Bricolage Grotesque", sans-serif;
+            letter-spacing: -0.035em;
+            text-wrap: balance;
+        }
+
+        p {
+            text-wrap: pretty;
+        }
+
+        section[id] {
+            scroll-margin-top: 6.5rem;
+        }
+
+        .cv-auto {
+            content-visibility: auto;
+            contain-intrinsic-size: auto 720px;
+        }
+
+        /* -------------------------------------------------------------------
+         * 2. MALLA DE LUZ ORGÁNICA EN MOVIMIENTO (Detrás de todos los vidrios)
+         *    Garantiza refracción física visible en cada panel translúcido
+         * ------------------------------------------------------------------- */
+        .ambient-canvas {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 12% 14%, rgba(235, 223, 196, 0.92), transparent 52%),
+                radial-gradient(circle at 88% 18%, rgba(196, 227, 211, 0.90), transparent 50%),
+                linear-gradient(155deg, #eaece6 0%, #dde6df 48%, #e8e5da 100%);
+            pointer-events: none;
+        }
+
+        .light-orb {
+            position: absolute;
+            border-radius: 9999px;
+            filter: blur(88px);
+            will-change: transform;
+            opacity: 0.68;
+        }
+
+        .orb-canopy {
+            width: 52vw;
+            height: 52vw;
+            min-width: 340px;
+            min-height: 340px;
+            top: -14%;
+            right: -10%;
+            background: radial-gradient(circle, rgba(22, 118, 78, 0.56) 0%, rgba(22, 118, 78, 0) 70%);
+            animation: driftA 24s ease-in-out infinite alternate;
+        }
+
+        .orb-sunlight {
+            width: 44vw;
+            height: 44vw;
+            min-width: 300px;
+            min-height: 300px;
+            top: 26%;
+            left: -12%;
+            background: radial-gradient(circle, rgba(217, 159, 76, 0.46) 0%, rgba(217, 159, 76, 0) 72%);
+            animation: driftB 28s ease-in-out infinite alternate;
+        }
+
+        .orb-mineral {
+            width: 48vw;
+            height: 48vw;
+            min-width: 320px;
+            min-height: 320px;
+            bottom: -14%;
+            right: 12%;
+            background: radial-gradient(circle, rgba(56, 158, 137, 0.48) 0%, rgba(56, 158, 137, 0) 72%);
+            animation: driftC 32s ease-in-out infinite alternate;
+        }
+
+        .orb-moss {
+            width: 38vw;
+            height: 38vw;
+            min-width: 260px;
+            min-height: 260px;
+            bottom: 22%;
+            left: 28%;
+            background: radial-gradient(circle, rgba(16, 82, 54, 0.30) 0%, rgba(16, 82, 54, 0) 72%);
+            animation: driftB 26s ease-in-out infinite alternate-reverse;
+        }
+
+        /* Retícula arquitectónica sutil para escala espacial */
+        .architectural-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(to right, rgba(15, 37, 28, 0.045) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(15, 37, 28, 0.045) 1px, transparent 1px);
+            background-size: 72px 72px;
+            mask-image: radial-gradient(ellipse at 50% 35%, black 35%, transparent 85%);
+        }
+
+        @keyframes driftA {
+            0%   { transform: translate3d(0, 0, 0) scale(1); }
+            100% { transform: translate3d(-8vw, 10vh, 0) scale(1.14); }
+        }
+        @keyframes driftB {
+            0%   { transform: translate3d(0, 0, 0) scale(1); }
+            100% { transform: translate3d(10vw, -8vh, 0) scale(1.12); }
+        }
+        @keyframes driftC {
+            0%   { transform: translate3d(0, 0, 0) scale(1.05); }
+            100% { transform: translate3d(-6vw, -12vh, 0) scale(0.95); }
+        }
+
+        /* -------------------------------------------------------------------
+         * 3. SUPERFICIES DE CRISTAL FÍSICO REAL (3 PROFUNDIDADES EN EJE Z)
+         *    - backdrop-filter: blur(22px) saturate(185%)
+         *    - Borde especular 1px con degradado lineal vía ::before + mask
+         *    - Sombras interiores (inset) y reflejo interactivo siguiendo cursor
+         * ------------------------------------------------------------------- */
+        .glass-panel,
+        .glass-elevated,
+        .glass-obsidian {
+            position: relative;
+            isolation: isolate;
+            transition:
+                transform 0.55s var(--ease-tactile),
+                box-shadow 0.55s var(--ease-tactile),
+                background-color 0.45s var(--ease-tactile);
+        }
+
+        /* Cristal Arquitectónico Base (Z1) */
+        .glass-panel {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.66) 0%, rgba(244, 248, 244, 0.44) 100%);
+            backdrop-filter: blur(22px) saturate(185%);
+            -webkit-backdrop-filter: blur(22px) saturate(185%);
+            box-shadow:
+                inset 0 1px 0 0 rgba(255, 255, 255, 0.85),
+                inset 0 -1px 0 0 rgba(15, 37, 28, 0.06),
+                0 20px 44px -22px rgba(12, 34, 24, 0.22),
+                0 4px 14px -4px rgba(12, 34, 24, 0.08);
+        }
+
+        /* Borde ultrafino 1px con degradado lineal (reflejo en el canto del vidrio) */
+        .glass-panel::before,
+        .glass-elevated::before,
+        .glass-obsidian::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            padding: 1px;
+            pointer-events: none;
+            z-index: 2;
+            -webkit-mask:
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask:
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
+            mask-composite: exclude;
+        }
+
+        .glass-panel::before {
+            background: linear-gradient(135deg,
+                rgba(255, 255, 255, 0.95) 0%,
+                rgba(255, 255, 255, 0.35) 38%,
+                rgba(28, 124, 84, 0.16) 72%,
+                rgba(255, 255, 255, 0.65) 100%);
+        }
+
+        /* Cristal Elevado Flotante (Z2 — superposiciones editoriales) */
+        .glass-elevated {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.82) 0%, rgba(246, 250, 246, 0.60) 100%);
+            backdrop-filter: blur(26px) saturate(200%);
+            -webkit-backdrop-filter: blur(26px) saturate(200%);
+            box-shadow:
+                inset 0 1px 0 0 rgba(255, 255, 255, 0.96),
+                inset 0 -1px 0 0 rgba(15, 37, 28, 0.08),
+                0 28px 58px -20px rgba(9, 26, 19, 0.28),
+                0 8px 20px -8px rgba(9, 26, 19, 0.12);
+        }
+
+        .glass-elevated::before {
+            background: linear-gradient(135deg,
+                rgba(255, 255, 255, 1) 0%,
+                rgba(255, 255, 255, 0.45) 45%,
+                rgba(20, 99, 66, 0.18) 80%,
+                rgba(255, 255, 255, 0.85) 100%);
+        }
+
+        /* Cristal Ahumado Botánico / Obsidiana (Alto contraste editorial) */
+        .glass-obsidian {
+            background: linear-gradient(145deg, rgba(13, 35, 26, 0.80) 0%, rgba(8, 22, 16, 0.72) 100%);
+            backdrop-filter: blur(24px) saturate(185%);
+            -webkit-backdrop-filter: blur(24px) saturate(185%);
+            color: #f3f7f4;
+            box-shadow:
+                inset 0 1px 0 0 rgba(190, 242, 215, 0.24),
+                inset 0 -1px 0 0 rgba(0, 0, 0, 0.38),
+                0 28px 60px -22px rgba(4, 15, 10, 0.55);
+        }
+
+        .glass-obsidian::before {
+            background: linear-gradient(135deg,
+                rgba(212, 245, 228, 0.48) 0%,
+                rgba(255, 255, 255, 0.12) 38%,
+                rgba(233, 196, 124, 0.24) 76%,
+                rgba(255, 255, 255, 0.22) 100%);
+        }
+
+        /* Reflejo especular dinámico que sigue el puntero sobre cada cristal */
+        .specular-track::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            pointer-events: none;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.4s var(--ease-tactile);
+            background: radial-gradient(
+                360px circle at var(--mx, 50%) var(--my, 50%),
+                rgba(255, 255, 255, 0.42),
+                transparent 62%
+            );
+        }
+
+        .glass-obsidian.specular-track::after {
+            background: radial-gradient(
+                380px circle at var(--mx, 50%) var(--my, 50%),
+                rgba(148, 232, 194, 0.16),
+                transparent 62%
+            );
+        }
+
+        .specular-track:hover::after {
+            opacity: 1;
+        }
+
+        .glass-hover:hover {
+            transform: translateY(-4px);
+            box-shadow:
+                inset 0 1px 0 0 rgba(255, 255, 255, 0.92),
+                inset 0 -1px 0 0 rgba(15, 37, 28, 0.08),
+                0 30px 60px -22px rgba(10, 32, 22, 0.28),
+                0 10px 22px -10px rgba(10, 32, 22, 0.12);
+        }
+
+        .glass-obsidian.glass-hover:hover {
+            transform: translateY(-4px);
+            box-shadow:
+                inset 0 1px 0 0 rgba(190, 242, 215, 0.34),
+                inset 0 -1px 0 0 rgba(0, 0, 0, 0.42),
+                0 34px 66px -20px rgba(3, 12, 8, 0.65);
+        }
+
+        /* Microinteracción táctil en botones */
+        .tactile-btn {
+            transition: transform 0.35s var(--ease-tactile), box-shadow 0.35s var(--ease-tactile), background-color 0.3s ease;
+        }
+        .tactile-btn:hover {
+            transform: translateY(-2px);
+        }
+        .tactile-btn:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        /* -------------------------------------------------------------------
+         * 4. MODERN WEB GUIDANCE: <dialog>, Popover API, :user-invalid, <details>
+         * ------------------------------------------------------------------- */
+        dialog.modern-dialog {
+            opacity: 0;
+            transform: translateY(16px) scale(0.97);
+            transition:
+                opacity 0.28s var(--ease-tactile),
+                transform 0.28s var(--ease-tactile),
+                overlay 0.28s var(--ease-tactile) allow-discrete,
+                display 0.28s var(--ease-tactile) allow-discrete;
+        }
+
+        dialog.modern-dialog[open] {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        @starting-style {
+            dialog.modern-dialog[open] {
+                opacity: 0;
+                transform: translateY(16px) scale(0.97);
+            }
+        }
+
+        dialog.modern-dialog::backdrop {
+            background-color: rgba(8, 22, 16, 0);
+            backdrop-filter: blur(0px);
+            transition:
+                background-color 0.28s var(--ease-tactile),
+                backdrop-filter 0.28s var(--ease-tactile),
+                overlay 0.28s var(--ease-tactile) allow-discrete,
+                display 0.28s var(--ease-tactile) allow-discrete;
+        }
+
+        dialog.modern-dialog[open]::backdrop {
+            background-color: rgba(8, 22, 16, 0.56);
+            backdrop-filter: blur(10px);
+        }
+
+        @starting-style {
+            dialog.modern-dialog[open]::backdrop {
+                background-color: rgba(8, 22, 16, 0);
+                backdrop-filter: blur(0px);
+            }
+        }
+
+        [popover].modern-popover {
+            opacity: 0;
+            transform: translateY(10px) scale(0.97);
+            transition:
+                opacity 0.24s var(--ease-tactile),
+                transform 0.24s var(--ease-tactile),
+                overlay 0.24s var(--ease-tactile) allow-discrete,
+                display 0.24s var(--ease-tactile) allow-discrete;
+        }
+
+        [popover].modern-popover:popover-open {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        @starting-style {
+            [popover].modern-popover:popover-open {
+                opacity: 0;
+                transform: translateY(10px) scale(0.97);
+            }
+        }
+
+        /* Validación SOLO después de que el usuario interactúa */
+        .mwg-field:user-invalid {
+            border-color: #c81e1e;
+            background-color: rgba(254, 242, 242, 0.85);
+        }
+        .mwg-field:user-valid {
+            border-color: #1c7c54;
+        }
+        .mwg-error {
+            display: none;
+        }
+        .mwg-field:user-invalid + .mwg-error {
+            display: block;
+        }
+
+        textarea.auto-grow {
+            field-sizing: content;
+            min-height: 6.5rem;
+            max-height: 18rem;
+        }
+
+        details.modern-accordion::details-content {
+            block-size: 0;
+            overflow: hidden;
+            transition: block-size 0.34s var(--ease-tactile), content-visibility 0.34s var(--ease-tactile) allow-discrete;
+        }
+        details.modern-accordion[open]::details-content {
+            block-size: auto;
+        }
+        details.modern-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+        details.modern-accordion[open] .accordion-plus {
+            transform: rotate(45deg);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .light-orb { animation: none !important; }
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-moss-300/60 selection:text-ink-950 overflow-x-hidden">
+
+    <!-- Fondo dinámico con mallas orgánicas de luz cálida y fría -->
+    <div class="ambient-canvas" aria-hidden="true">
+        <div class="light-orb orb-canopy"></div>
+        <div class="light-orb orb-sunlight"></div>
+        <div class="light-orb orb-mineral"></div>
+        <div class="light-orb orb-moss"></div>
+        <div class="architectural-grid"></div>
+    </div>
+
+    <!-- Accesibilidad: Saltar al contenido principal -->
+    <a href="#contenido-principal" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2.5 focus:rounded-xl focus:bg-ink-950 focus:text-white focus:font-mono focus:text-xs">
+        SALTAR_AL_CONTENIDO
+    </a>
+
+    <!-- =======================================================================
+         NAVEGACIÓN FLOTANTE ARQUITECTÓNICA (Cinta de cristal suspendida)
+    ======================================================================== -->
+    <header class="fixed top-3 sm:top-5 inset-x-0 z-40 px-3 sm:px-6 lg:px-8 pointer-events-none">
+        <div class="max-w-7xl mx-auto">
+            <div class="glass-elevated specular-track pointer-events-auto rounded-2xl sm:rounded-3xl px-4 sm:px-5 py-2.5 sm:py-3 flex items-center justify-between gap-4">
+                <!-- Identidad Editorial -->
+                <a href="#inicio" class="flex items-center gap-3 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-moss-600 rounded-xl p-1">
+                    <div class="w-10 h-10 rounded-xl bg-ink-950 text-moss-100 flex items-center justify-center shadow-inner relative overflow-hidden">
+                        <span class="font-display font-extrabold text-sm tracking-tighter">CO<sub class="text-[10px] text-moss-300">2</sub></span>
+                    </div>
+                    <div class="leading-tight">
+                        <span class="block font-display font-bold text-base sm:text-lg tracking-tight text-ink-950">Fundación CO2</span>
+                        <span class="block font-mono text-[10px] uppercase tracking-[0.14em] text-ink-600">BO // ACCIÓN CLIMÁTICA</span>
+                    </div>
+                </a>
+
+                <!-- Índice de Secciones (Escritorio) -->
+                <nav class="hidden lg:flex items-center gap-1" aria-label="Navegación principal">
+                    <a href="#inicio" class="px-3.5 py-2 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-800 hover:bg-white/70 hover:text-ink-950 transition-colors">01. Inicio</a>
+                    <a href="#institucional" class="px-3.5 py-2 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-800 hover:bg-white/70 hover:text-ink-950 transition-colors">02. Manifiesto</a>
+                    <a href="#programas" class="px-3.5 py-2 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-800 hover:bg-white/70 hover:text-ink-950 transition-colors">03. Programas</a>
+                    <a href="#noticias" class="px-3.5 py-2 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-800 hover:bg-white/70 hover:text-ink-950 transition-colors">04. Bitácora</a>
+                    <a href="#contacto" class="px-3.5 py-2 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-800 hover:bg-white/70 hover:text-ink-950 transition-colors">05. Contacto</a>
+                </nav>
+
+                <!-- Acción Principal + Menú Móvil -->
+                <div class="flex items-center gap-2.5">
+                    <a href="https://wa.me/59174962427?text=Hola%20Fundaci%C3%B3n%20CO2%2C%20deseo%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="hidden xl:inline-flex items-center gap-1.5 px-3 py-2 rounded-xl font-mono text-[11px] text-ink-800 hover:bg-white/60 transition-colors">
+                        <span class="w-2 h-2 rounded-full bg-moss-500 animate-pulse" aria-hidden="true"></span>
+                        <span>+591 74962427</span>
+                    </a>
+                    <a href="#donaciones" class="tactile-btn hidden sm:inline-flex items-center gap-2 bg-ink-950 hover:bg-moss-700 text-moss-50 font-mono text-xs uppercase tracking-wider font-semibold px-4 py-2.5 rounded-xl shadow-lg shadow-ink-950/15">
+                        <span>Donar · QR</span>
+                        <svg class="w-3.5 h-3.5 text-moss-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                    </a>
+
+                    <button id="mobile-menu-btn" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false" class="lg:hidden p-2.5 rounded-xl bg-white/60 text-ink-950 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-moss-600">
+                        <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h10"/></svg>
+                        <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Desplegable Móvil de Cristal -->
+            <nav id="mobile-menu" aria-label="Navegación móvil" class="hidden lg:hidden mt-2.5 glass-elevated pointer-events-auto rounded-2xl p-3 space-y-1">
+                <a href="#inicio" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-900 hover:bg-white/70"><span>01. Inicio</span><span>→</span></a>
+                <a href="#institucional" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-900 hover:bg-white/70"><span>02. Información Institucional</span><span>→</span></a>
+                <a href="#programas" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-900 hover:bg-white/70"><span>03. Programas</span><span>→</span></a>
+                <a href="#noticias" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-900 hover:bg-white/70"><span>04. Noticias / Blog</span><span>→</span></a>
+                <a href="#contacto" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl font-mono text-xs uppercase tracking-wider text-ink-900 hover:bg-white/70"><span>05. Contacto</span><span>→</span></a>
+                <div class="pt-2">
+                    <a href="#donaciones" class="mobile-nav-link flex items-center justify-center gap-2 w-full bg-ink-950 text-white font-mono text-xs uppercase tracking-wider font-semibold px-4 py-3.5 rounded-xl">
+                        <span>Apoyar Causa Social (QR Simple)</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal" class="pt-28 sm:pt-32 lg:pt-36">
+        <!-- =======================================================================
+             SECCIÓN 1: INICIO (PORTADA EDITORIAL ASIMÉTRICA EN CAPAS Z)
+             Cero hero centrado: composición asimétrica 7/5 con placas flotantes
+        ======================================================================== -->
+        <section id="inicio" class="px-4 sm:px-6 lg:px-8 pb-20 sm:pb-28">
+            <div class="max-w-7xl mx-auto">
+                <!-- Metadatos editoriales superiores -->
+                <div class="flex flex-wrap items-center justify-between gap-3 pb-6 mb-6 border-b border-ink-950/12">
+                    <div class="flex items-center gap-3 font-mono text-[11px] sm:text-xs uppercase tracking-[0.14em] text-ink-700">
+                        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel font-semibold text-moss-700">
+                            <span class="w-1.5 h-1.5 rounded-full bg-moss-500 animate-pulse" aria-hidden="true"></span>
+                            FUNDACIÓN AMBIENTAL · BOLIVIA
+                        </span>
+                        <span class="hidden md:inline text-ink-600">LAT -17.7833 / LON -63.1821</span>
+                    </div>
+                    <div class="font-mono text-[11px] uppercase tracking-[0.14em] text-ink-600">
+                        SEC_01 // RESTAURACIÓN &amp; CAPTURA DE CARBONO
+                    </div>
+                </div>
+
+                <!-- Grid Asimétrico Principal + Superposición Z -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                    <!-- Columna Izquierda (7 cols): Manifiesto Tipográfico + Placa CTA -->
+                    <div class="lg:col-span-7 flex flex-col justify-between gap-6">
+                        <div class="glass-panel specular-track rounded-[2rem] p-7 sm:p-10 lg:p-12">
+                            <p class="font-mono text-xs uppercase tracking-[0.18em] text-moss-600 font-semibold mb-4">
+                                [01] — REEQUILIBRIO ATMOSFÉRICO
+                            </p>
+                            <h1 class="display-title text-4xl sm:text-6xl xl:text-[4.5rem] font-extrabold text-ink-950 leading-[0.96]">
+                                Convertimos la huella de <span class="text-moss-600">CO<sub>2</sub></span> en arquitectura de bosque vivo.
+                            </h1>
+                            <p class="mt-6 text-base sm:text-lg text-ink-800 leading-relaxed max-w-xl">
+                                Somos una fundación boliviana dedicada a la <strong>reforestación con especies nativas</strong>, la educación climática comunitaria y la reducción verificable de carbono junto a ciudadanos, escuelas y aliados.
+                            </p>
+
+                            <!-- Bloque CTA destacado a Donaciones (sin patrón genérico de dos botones simétricos) -->
+                            <div class="mt-9 pt-7 border-t border-ink-950/10 flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+                                <a href="#donaciones" class="tactile-btn inline-flex items-center justify-between sm:justify-center gap-4 bg-ink-950 hover:bg-moss-700 text-white px-7 py-4 rounded-2xl shadow-xl shadow-ink-950/20 group">
+                                    <span class="text-left">
+                                        <span class="block font-mono text-[10px] uppercase tracking-[0.16em] text-moss-300">Causa Social Directa</span>
+                                        <span class="block font-display font-bold text-base sm:text-lg">Donar a la Fundación</span>
+                                    </span>
+                                    <span class="w-10 h-10 rounded-xl bg-white/10 group-hover:bg-moss-500 flex items-center justify-center transition-colors">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                                    </span>
+                                </a>
+
+                                <a href="#programas" class="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider font-semibold text-ink-900 hover:text-moss-600 py-2 transition-colors">
+                                    <span>Explorar 03 Programas</span>
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sub-Bento Asimétrico de Telemetría Ambiental (2 celdas con proporciones 5/7) -->
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-5">
+                            <div class="sm:col-span-5 glass-obsidian specular-track glass-hover rounded-3xl p-6 flex flex-col justify-between">
+                                <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">CAPTURA ANUAL</span>
+                                <div class="mt-4">
+                                    <p class="display-title text-4xl sm:text-5xl font-extrabold text-white">420<span class="text-moss-300 text-2xl font-mono ml-1">t</span></p>
+                                    <p class="text-xs text-moss-100/80 mt-1.5">Toneladas de CO<sub>2</sub> absorbidas por parcelas monitoreadas.</p>
+                                </div>
+                            </div>
+                            <div class="sm:col-span-7 glass-panel specular-track glass-hover rounded-3xl p-6 grid grid-cols-2 gap-4 items-end">
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-ink-600 block mb-2">ÁRBOLES NATIVOS</span>
+                                    <p class="display-title text-3xl sm:text-4xl font-extrabold text-ink-950">+18.5k</p>
+                                    <p class="text-xs text-ink-600 mt-1">86% tasa de supervivencia</p>
+                                </div>
+                                <div class="border-l border-ink-950/10 pl-4">
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-ink-600 block mb-2">RED ACTIVA</span>
+                                    <p class="display-title text-3xl sm:text-4xl font-extrabold text-moss-600">650+</p>
+                                    <p class="text-xs text-ink-600 mt-1">Voluntarios en 35 escuelas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha (5 cols): Escena Fotográfica + Capas Flotantes en Eje Z -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-ink-950/20 border border-white/60 aspect-[4/5] sm:aspect-[16/11] lg:aspect-[4/5]">
+                            <img
+                                src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1400&q=80"
+                                onerror="this.onerror=null; this.src='https://placehold.co/900x1100/0f251c/a7f3d0?text=Fundacion+CO2+-+Dosel+Vivo';"
+                                alt="Bosque nativo protegido por Fundación CO2"
+                                fetchpriority="high"
+                                decoding="async"
+                                class="w-full h-full object-cover object-center scale-[1.02]"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/65 via-transparent to-ink-950/15"></div>
+
+                            <!-- Etiqueta superior flotante dentro de la imagen -->
+                            <div class="absolute top-4 left-4 right-4 flex items-center justify-between gap-2">
+                                <span class="glass-obsidian px-3.5 py-1.5 rounded-full font-mono text-[10px] uppercase tracking-[0.15em] text-moss-200">
+                                    DOSEL NATIVO · ACTIVO
+                                </span>
+                                <span class="glass-elevated px-3 py-1.5 rounded-full font-mono text-[10px] font-semibold text-ink-950">
+                                    0% COMISIONES QR
+                                </span>
+                            </div>
+
+                            <!-- Pie fotográfico -->
+                            <div class="absolute bottom-5 left-5 right-5 lg:bottom-24">
+                                <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">CAMPAÑA DE SIEMBRA</p>
+                                <p class="display-title text-2xl sm:text-3xl font-bold text-white mt-1 leading-tight">
+                                    Cada aporte de 50 Bs financia 5 plantines nativos con seguimiento.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Placa de Cristal Flotante Superpuesta en Eje Z (sobresale en escritorio) -->
+                        <div class="mt-4 lg:mt-0 lg:absolute lg:-bottom-8 lg:-left-10 lg:right-6 z-20 glass-elevated specular-track glass-hover rounded-3xl p-5 sm:p-6">
+                            <div class="flex items-center justify-between gap-4">
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-moss-600 font-semibold">INTEROPERABLE BOLIVIA</span>
+                                    <p class="font-display font-bold text-base sm:text-lg text-ink-950 mt-0.5">Aporte inmediato vía QR Simple</p>
+                                    <p class="text-xs text-ink-600 mt-0.5">Directo a cuenta institucional · Comprobante por WhatsApp</p>
+                                </div>
+                                <a href="#donaciones" aria-label="Ir a donaciones QR Simple" class="tactile-btn shrink-0 w-12 h-12 rounded-2xl bg-moss-600 hover:bg-ink-950 text-white flex items-center justify-center shadow-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             SECCIÓN 2: INFORMACIÓN INSTITUCIONAL (MANIFIESTO EN CAPAS Z)
+             Historia, Misión, Visión, Propósito y Valores en Bento Asimétrico
+        ======================================================================== -->
+        <section id="institucional" class="px-4 sm:px-6 lg:px-8 py-20 sm:py-28 cv-auto">
+            <div class="max-w-7xl mx-auto">
+                <!-- Cabecera Editorial Asimétrica -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-end mb-12">
+                    <div class="lg:col-span-7">
+                        <span class="font-mono text-xs uppercase tracking-[0.18em] text-moss-600 font-semibold block mb-3">
+                            SEC_02 // INFORMACIÓN INSTITUCIONAL
+                        </span>
+                        <h2 class="display-title text-3xl sm:text-5xl lg:text-6xl font-extrabold text-ink-950 leading-[1.0]">
+                            Restauramos el equilibrio entre ciudad, comunidad y ecosistema.
+                        </h2>
+                    </div>
+                    <div class="lg:col-span-5 lg:pb-1">
+                        <p class="text-sm sm:text-base text-ink-800 leading-relaxed">
+                            La <strong>Fundación CO2</strong> nace como una respuesta técnica y ciudadana frente a la deforestación y el aumento de gases de efecto invernadero, articulando acción territorial con transparencia verificable.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Composición Escalonada en Eje Z: Historia + Fotografía + Misión/Visión -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+                    <!-- Historia y Propósito (Columna Izquierda 6 cols) -->
+                    <div class="lg:col-span-6 glass-panel specular-track rounded-[2rem] p-7 sm:p-10 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between font-mono text-[11px] uppercase tracking-[0.16em] text-ink-600 pb-4 border-b border-ink-950/10">
+                                <span>ORIGEN Y ALCANCE</span>
+                                <span>BOLIVIA // SIN FINES DE LUCRO</span>
+                            </div>
+                            <h3 class="display-title text-2xl sm:text-3xl font-bold text-ink-950 mt-6">
+                                De la conciencia ambiental a la intervención medible en territorio
+                            </h3>
+                            <p class="mt-4 text-ink-800 leading-relaxed text-sm sm:text-base">
+                                Desde nuestros inicios hemos sumado a voluntarios, familias, unidades educativas y organizaciones aliadas para producir plantines nativos en vivero, recuperar corredores verdes urbanos y capacitar a nuevas generaciones en gestión de residuos y cultura climática.
+                            </p>
+                            <p class="mt-3.5 text-ink-800 leading-relaxed text-sm sm:text-base">
+                                Nuestro propósito es claro: que cada ciudadano y empresa pueda transformar su preocupación ambiental en árboles vivos, suelo fértil y aire limpio, con trazabilidad total de cada aporte.
+                            </p>
+                        </div>
+
+                        <blockquote class="mt-8 p-5 rounded-2xl bg-white/55 border border-white/80">
+                            <p class="font-display font-semibold text-ink-950 text-base sm:text-lg leading-snug">
+                                “No heredamos la tierra de nuestros padres; la custodiamos para quienes respirarán después de nosotros.”
+                            </p>
+                            <footer class="font-mono text-[11px] uppercase tracking-wider text-moss-700 mt-2">
+                                — CARTA FUNDACIONAL · FUNDACIÓN CO2
+                            </footer>
+                        </blockquote>
+                    </div>
+
+                    <!-- Columna Derecha (6 cols): Imagen con Placas Superpuestas de Misión y Visión -->
+                    <div class="lg:col-span-6 flex flex-col gap-6">
+                        <div class="relative rounded-[2rem] overflow-hidden h-64 sm:h-72 border border-white/70 shadow-xl">
+                            <img
+                                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1100&q=80"
+                                onerror="this.onerror=null; this.src='https://placehold.co/900x520/146342/edf7f2?text=Manos+sembrando+vida+CO2';"
+                                alt="Voluntarios de Fundación CO2 sembrando un árbol nativo"
+                                loading="lazy"
+                                decoding="async"
+                                class="w-full h-full object-cover"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-tr from-ink-950/55 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 left-5 font-mono text-[11px] uppercase tracking-[0.16em] text-white/90 bg-ink-950/60 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/20">
+                                TRABAJO EN CAMPO · MONITOREO ACTIVO
+                            </span>
+                        </div>
+
+                        <!-- Misión (Obsidiana) y Visión (Cristal Claro) desplazadas en eje Z -->
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-5 lg:-mt-14 relative z-10 px-0 sm:px-3">
+                            <div class="sm:col-span-7 glass-obsidian specular-track glass-hover rounded-3xl p-6 sm:p-7">
+                                <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300 block mb-2">01 / MISIÓN</span>
+                                <h3 class="display-title text-xl sm:text-2xl font-bold text-white">Acción climática participativa</h3>
+                                <p class="mt-3 text-xs sm:text-sm text-moss-100/90 leading-relaxed">
+                                    Promover la conservación ambiental, la reforestación con especies nativas y la educación climática mediante programas medibles que reduzcan la huella de carbono.
+                                </p>
+                            </div>
+                            <div class="sm:col-span-5 glass-elevated specular-track glass-hover rounded-3xl p-6 sm:p-7 flex flex-col justify-between">
+                                <div>
+                                    <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-600 font-semibold block mb-2">02 / VISIÓN</span>
+                                    <h3 class="display-title text-xl font-bold text-ink-950">Referente en Bolivia</h3>
+                                    <p class="mt-2.5 text-xs sm:text-sm text-ink-800 leading-relaxed">
+                                        Liderar la restauración de bosques y la construcción de comunidades resilientes y carbono neutrales con transparencia ejemplar.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Valores Organizacionales: Bento Asimétrico (5 + 7 / 7 + 5 en 12 columnas) -->
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-12 gap-5">
+                    <div class="md:col-span-5 glass-panel specular-track glass-hover rounded-3xl p-6 sm:p-7 flex flex-col justify-between">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-xs font-semibold text-moss-700 bg-moss-100/80 px-2.5 py-1 rounded-lg">VAL_01</span>
+                            <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500">ECOSISTEMA</span>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="display-title text-2xl font-bold text-ink-950">Sostenibilidad real</h4>
+                            <p class="text-sm text-ink-700 mt-2 leading-relaxed">Diseñamos intervenciones duraderas que respetan los ciclos hídricos y la flora endémica de cada región.</p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-7 glass-elevated specular-track glass-hover rounded-3xl p-6 sm:p-7 flex flex-col justify-between">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-xs font-semibold text-moss-700 bg-moss-100/80 px-2.5 py-1 rounded-lg">VAL_02</span>
+                            <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500">TRAZABILIDAD</span>
+                        </div>
+                        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 items-end">
+                            <div>
+                                <h4 class="display-title text-2xl font-bold text-ink-950">Transparencia radical</h4>
+                                <p class="text-sm text-ink-700 mt-2 leading-relaxed">Cada donación y jornada se documenta públicamente para que nuestra comunidad conozca el destino exacto de su apoyo.</p>
+                            </div>
+                            <div class="font-mono text-xs text-ink-800 bg-white/65 border border-white rounded-2xl p-4">
+                                <span class="block text-[10px] text-moss-600 uppercase">Compromiso abierto</span>
+                                <span class="block font-semibold mt-1">100% trazable en reportes de campo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-7 glass-panel specular-track glass-hover rounded-3xl p-6 sm:p-7 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div class="max-w-md">
+                            <span class="font-mono text-xs font-semibold text-moss-700 bg-moss-100/80 px-2.5 py-1 rounded-lg">VAL_03</span>
+                            <h4 class="display-title text-2xl font-bold text-ink-950 mt-4">Acción comunitaria</h4>
+                            <p class="text-sm text-ink-700 mt-2 leading-relaxed">Involucramos a vecinos, docentes y brigadas juveniles como protagonistas del cuidado a largo plazo.</p>
+                        </div>
+                        <div class="shrink-0 glass-obsidian px-5 py-4 rounded-2xl text-center">
+                            <span class="display-title text-3xl font-extrabold text-moss-300 block">35+</span>
+                            <span class="font-mono text-[10px] uppercase tracking-wider text-moss-100">Comunidades</span>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-5 glass-panel specular-track glass-hover rounded-3xl p-6 sm:p-7 flex flex-col justify-between">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-xs font-semibold text-moss-700 bg-moss-100/80 px-2.5 py-1 rounded-lg">VAL_04</span>
+                            <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500">CIENCIA APLICADA</span>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="display-title text-2xl font-bold text-ink-950">Rigor ambiental</h4>
+                            <p class="text-sm text-ink-700 mt-2 leading-relaxed">Priorizamos especies nativas y protocolos de riego eficiente para maximizar la supervivencia real.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             SECCIÓN 3: PROGRAMAS PRINCIPALES (BENTO ASIMÉTRICO SIN TARJETAS IGUALES)
+             3 programas con geometrías distintas: 8 cols + 4 cols + 12 cols split
+        ======================================================================== -->
+        <section id="programas" class="px-4 sm:px-6 lg:px-8 py-20 sm:py-28 cv-auto">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+                    <div class="max-w-2xl">
+                        <span class="font-mono text-xs uppercase tracking-[0.18em] text-moss-600 font-semibold block mb-3">
+                            SEC_03 // PROGRAMAS ACTIVOS
+                        </span>
+                        <h2 class="display-title text-3xl sm:text-5xl font-extrabold text-ink-950 leading-[1.02]">
+                            Tres frentes de acción con impacto medible en el territorio.
+                        </h2>
+                    </div>
+                    <p class="font-mono text-xs uppercase tracking-[0.14em] text-ink-600 lg:text-right">
+                        LINEAS ESTRATÉGICAS 01 — 03<br>SEGUIMIENTO CONTINUO
+                    </p>
+                </div>
+
+                <!-- Cuadrícula Bento Asimétrica (8 + 4 arriba, 12 split abajo) -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                    <!-- PROGRAMA 01: Pieza Editorial Horizontal Principal (8 cols) -->
+                    <article class="lg:col-span-8 glass-panel specular-track glass-hover rounded-[2rem] overflow-hidden grid grid-cols-1 md:grid-cols-12">
+                        <div class="md:col-span-6 relative min-h-[260px]">
+                            <img
+                                src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=950&q=80"
+                                onerror="this.onerror=null; this.src='https://placehold.co/800x650/0e4a31/d4ede0?text=Programa+01+Reforestacion';"
+                                alt="Programa de Reforestación y Bosques Nativos"
+                                loading="lazy"
+                                decoding="async"
+                                class="w-full h-full object-cover"
+                            >
+                            <div class="absolute top-4 left-4 glass-obsidian px-3.5 py-1.5 rounded-full font-mono text-[11px] text-moss-300">
+                                PROG_01 // TERRITORIO
+                            </div>
+                        </div>
+                        <div class="md:col-span-6 p-7 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="display-title text-2xl sm:text-3xl font-extrabold text-ink-950 leading-tight">
+                                    Reforestación y Bosques Nativos
+                                </h3>
+                                <p class="mt-4 text-sm text-ink-800 leading-relaxed">
+                                    Restauramos áreas degradadas, cuencas hídricas y corredores verdes urbanos mediante producción en vivero propio y siembra de especies nativas adaptadas, asegurando monitoreo post-plantación.
+                                </p>
+                            </div>
+                            <div class="mt-7 pt-5 border-t border-ink-950/10 grid grid-cols-2 gap-4">
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-ink-600 block">Supervivencia</span>
+                                    <span class="display-title text-2xl font-extrabold text-moss-600">86%</span>
+                                </div>
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-ink-600 block">Superficie</span>
+                                    <span class="display-title text-2xl font-extrabold text-ink-950">+45 ha</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROGRAMA 02: Monolito Vertical en Cristal Ahumado (4 cols) -->
+                    <article class="lg:col-span-4 glass-obsidian specular-track glass-hover rounded-[2rem] p-7 sm:p-8 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-5">
+                                <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">PROG_02 // ESCUELAS</span>
+                                <span class="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center font-mono text-xs text-amberleaf-300">02</span>
+                            </div>
+                            <div class="rounded-2xl overflow-hidden h-40 mb-5 border border-white/15">
+                                <img
+                                    src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80"
+                                    onerror="this.onerror=null; this.src='https://placehold.co/700x400/146342/ffffff?text=Educacion+Climatica';"
+                                    alt="Programa de Educación Ambiental y Brigadas Juveniles"
+                                    loading="lazy"
+                                    decoding="async"
+                                    class="w-full h-full object-cover"
+                                >
+                            </div>
+                            <h3 class="display-title text-2xl font-bold text-white leading-tight">
+                                Educación Ambiental y Acción Juvenil
+                            </h3>
+                            <p class="mt-3 text-sm text-moss-100/85 leading-relaxed">
+                                Talleres prácticos en colegios y barrios sobre compostaje, manejo de residuos, ahorro hídrico y formación de brigadas ecológicas estudiantiles.
+                            </p>
+                        </div>
+
+                        <div class="mt-6 pt-5 border-t border-white/15 flex items-center justify-between font-mono text-xs">
+                            <div>
+                                <span class="text-moss-300 block text-[10px]">ESTUDIANTES</span>
+                                <span class="text-white font-bold text-base">+3.200</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-moss-300 block text-[10px]">PUNTOS VERDES</span>
+                                <span class="text-white font-bold text-base">28 colegios</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROGRAMA 03: Banda Arquitectónica Asimétrica Completa (12 cols) -->
+                    <article class="lg:col-span-12 glass-elevated specular-track glass-hover rounded-[2rem] p-6 sm:p-8 lg:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                        <div class="lg:col-span-5">
+                            <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-600 font-semibold block mb-2">
+                                PROG_03 // COMPENSACIÓN &amp; ALIANZAS
+                            </span>
+                            <h3 class="display-title text-2xl sm:text-4xl font-extrabold text-ink-950 leading-tight">
+                                Huella de Carbono Cero y Economía Circular
+                            </h3>
+                            <p class="mt-4 text-sm sm:text-base text-ink-800 leading-relaxed">
+                                Acompañamos a emprendimientos, empresas y ciudadanos a diagnosticar su huella ecológica, reducir consumos críticos y compensar emisiones de CO<sub>2</sub> financiando directamente campañas de siembra nativa.
+                            </p>
+                            <div class="mt-6 flex flex-wrap gap-3">
+                                <span class="font-mono text-xs px-3.5 py-2 rounded-xl bg-white/75 border border-white text-ink-900 font-semibold">420 ton CO<sub>2</sub> compensadas</span>
+                                <span class="font-mono text-xs px-3.5 py-2 rounded-xl bg-moss-100/80 text-moss-800 font-semibold">18 organizaciones aliadas</span>
+                            </div>
+                        </div>
+
+                        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
+                            <div class="sm:col-span-7 rounded-2xl overflow-hidden h-56 sm:h-64 border border-white/80 shadow-lg">
+                                <img
+                                    src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=950&q=80"
+                                    onerror="this.onerror=null; this.src='https://placehold.co/800x500/0a291c/d4ede0?text=Carbono+Cero+CO2';"
+                                    alt="Programa Huella de Carbono Cero y Alianzas"
+                                    loading="lazy"
+                                    decoding="async"
+                                    class="w-full h-full object-cover"
+                                >
+                            </div>
+                            <div class="sm:col-span-5 glass-panel rounded-2xl p-5 space-y-4">
+                                <p class="font-mono text-[11px] uppercase tracking-wider text-moss-700 font-semibold">¿ERES EMPRESA O COLECTIVO?</p>
+                                <p class="text-xs sm:text-sm text-ink-800 leading-relaxed">
+                                    Suma a tu equipo a una jornada corporativa de compensación ambiental con certificado institucional de impacto.
+                                </p>
+                                <a href="#contacto" class="tactile-btn inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider font-bold text-ink-950 hover:text-moss-600">
+                                    <span>Solicitar alianza</span>
+                                    <span>→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             SECCIÓN 4: NOTICIAS / BLOG (BITÁCORA ADMINISTRABLE + VIEW TRANSITIONS)
+             Layout editorial asimétrico (artículo destacado 7 cols + secundarios)
+        ======================================================================== -->
+        <section id="noticias" class="px-4 sm:px-6 lg:px-8 py-20 sm:py-28 cv-auto">
+            <div class="max-w-7xl mx-auto">
+                <div class="glass-panel rounded-[2rem] p-6 sm:p-9 lg:p-11">
+                    <!-- Cabecera + Botón Demo Admin -->
+                    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-8 border-b border-ink-950/10">
+                        <div class="max-w-2xl">
+                            <span class="font-mono text-xs uppercase tracking-[0.18em] text-moss-600 font-semibold block mb-3">
+                                SEC_04 // NOTICIAS Y BITÁCORA
+                            </span>
+                            <h2 class="display-title text-3xl sm:text-5xl font-extrabold text-ink-950 leading-[1.02]">
+                                Crónicas de campo, eventos y avances comunitarios.
+                            </h2>
+                        </div>
+
+                        <button
+                            id="open-admin-modal-btn"
+                            type="button"
+                            commandfor="admin-news-dialog"
+                            command="show-modal"
+                            class="tactile-btn inline-flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl bg-ink-950 hover:bg-moss-700 text-white font-mono text-xs uppercase tracking-wider font-semibold shadow-lg"
+                        >
+                            <svg class="w-4 h-4 text-moss-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+                            <span>Publicar noticia (Demo Admin)</span>
+                        </button>
+                    </div>
+
+                    <!-- Barra de Filtros + Estado Accesible -->
+                    <div class="flex flex-wrap items-center justify-between gap-4 py-6">
+                        <div class="flex flex-wrap gap-2" id="news-filters" role="group" aria-label="Filtrar noticias por categoría">
+                            <button type="button" data-category="Todas" aria-pressed="true" class="filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-ink-950 text-white transition-all">Todas</button>
+                            <button type="button" data-category="Reforestación" aria-pressed="false" class="filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-white/65 text-ink-800 hover:bg-white transition-all">Reforestación</button>
+                            <button type="button" data-category="Educación" aria-pressed="false" class="filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-white/65 text-ink-800 hover:bg-white transition-all">Educación</button>
+                            <button type="button" data-category="Eventos" aria-pressed="false" class="filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-white/65 text-ink-800 hover:bg-white transition-all">Eventos</button>
+                        </div>
+                        <p id="news-count-status" aria-live="polite" class="font-mono text-xs text-ink-600 uppercase tracking-wider">03 PUBLICACIONES</p>
+                    </div>
+
+                    <!-- Grilla Dinámica Asimétrica de Noticias (12 columnas) -->
+                    <div id="news-grid" class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                        <!-- Renderizado dinámicamente en JS -->
+                    </div>
+
+                    <!-- Nota de administración incluida en Propuesta Base -->
+                    <div class="mt-8 pt-6 border-t border-ink-950/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs sm:text-sm text-ink-800">
+                        <p>
+                            <strong class="font-mono uppercase text-[11px] tracking-wider text-moss-700 mr-2">[GESTIÓN INCLUIDA]</strong>
+                            Actualización gratuita del feed de noticias durante los primeros <strong>3 meses</strong> posteriores a la entrega + capacitación breve para el equipo de Fundación CO2.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             SECCIÓN 5: DONACIONES (MESA TÁCTIL DE CRISTAL AHUMADO + QR SIMPLE)
+             QR Interoperable + Popover API + Cuenta Bancaria + Comprobante WhatsApp
+        ======================================================================== -->
+        <section id="donaciones" class="px-4 sm:px-6 lg:px-8 py-20 sm:py-28 cv-auto">
+            <div class="max-w-7xl mx-auto">
+                <div class="glass-obsidian specular-track rounded-[2.25rem] p-6 sm:p-10 lg:p-14 relative overflow-hidden">
+                    <!-- Luz orgánica interna detrás del cristal ahumado -->
+                    <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-moss-500/25 blur-3xl pointer-events-none" aria-hidden="true"></div>
+                    <div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-amberleaf-500/20 blur-3xl pointer-events-none" aria-hidden="true"></div>
+
+                    <div class="relative z-10">
+                        <!-- Encabezado Asimétrico -->
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-end pb-10 border-b border-white/12">
+                            <div class="lg:col-span-7">
+                                <span class="font-mono text-xs uppercase tracking-[0.18em] text-moss-300 block mb-3">
+                                    SEC_05 // DONACIONES · CAUSA SOCIAL
+                                </span>
+                                <h2 class="display-title text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[0.98]">
+                                    Financia bosques nativos directo y sin intermediarios.
+                                </h2>
+                            </div>
+                            <div class="lg:col-span-5">
+                                <p class="text-sm sm:text-base text-moss-100/85 leading-relaxed">
+                                    Aporta al instante desde cualquier banco en Bolivia mediante <strong>QR Simple interoperable</strong> o transferencia bancaria directa. Cero comisiones de pasarela.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Selector Táctil de Impacto -->
+                        <div class="mt-9">
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+                                <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">01 // ELIGE UN APORTE REFERENCIAL</span>
+                                <span id="donation-impact-banner" aria-live="polite" class="font-mono text-xs text-amberleaf-300">
+                                    150 Bs → 15 árboles nativos + taller escolar
+                                </span>
+                            </div>
+                            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3.5" id="donation-tiers" role="group" aria-label="Montos referenciales de donación">
+                                <button type="button" data-amount="50 Bs" data-impact="Financia 5 plantines nativos y su cuidado inicial" aria-pressed="false" class="tier-btn tactile-btn p-4 sm:p-5 rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 text-left">
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-moss-300 block">SEMILLA</span>
+                                    <span class="display-title text-2xl sm:text-3xl font-extrabold text-white block mt-1">50 Bs</span>
+                                    <span class="text-xs text-moss-100/75 block mt-1">5 árboles nativos</span>
+                                </button>
+                                <button type="button" data-amount="150 Bs" data-impact="Cubre 15 árboles nativos + taller ambiental escolar" aria-pressed="true" class="tier-btn tactile-btn p-4 sm:p-5 rounded-2xl border-2 border-moss-300 bg-moss-500/25 text-left shadow-lg">
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-amberleaf-300 block font-bold">★ RECOMENDADO</span>
+                                    <span class="display-title text-2xl sm:text-3xl font-extrabold text-white block mt-1">150 Bs</span>
+                                    <span class="text-xs text-white/90 block mt-1">15 árboles + taller</span>
+                                </button>
+                                <button type="button" data-amount="350 Bs" data-impact="Restaura una micro-parcela verde con riego y monitoreo" aria-pressed="false" class="tier-btn tactile-btn p-4 sm:p-5 rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 text-left">
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-moss-300 block">PARCELA</span>
+                                    <span class="display-title text-2xl sm:text-3xl font-extrabold text-white block mt-1">350 Bs</span>
+                                    <span class="text-xs text-moss-100/75 block mt-1">Micro-parcela verde</span>
+                                </button>
+                                <button type="button" data-amount="Monto libre" data-impact="Todo aporte suma directamente a los programas de Fundación CO2" aria-pressed="false" class="tier-btn tactile-btn p-4 sm:p-5 rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 text-left">
+                                    <span class="font-mono text-[10px] uppercase tracking-wider text-moss-300 block">ABIERTO</span>
+                                    <span class="display-title text-2xl sm:text-3xl font-extrabold text-white block mt-1">Libre</span>
+                                    <span class="text-xs text-moss-100/75 block mt-1">El monto que desees</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Mesa Asimétrica: Placa Clara de QR Simple (5 cols) + Datos Bancarios y WhatsApp (7 cols) -->
+                        <div class="mt-8 grid grid-cols-1 lg:grid-cols-12 gap-7 items-stretch">
+                            <!-- Placa de Cristal Claro Flotante: QR Simple Bolivia -->
+                            <div class="lg:col-span-5 glass-elevated rounded-3xl p-6 sm:p-8 text-ink-950 flex flex-col justify-between items-center text-center">
+                                <div class="w-full flex items-center justify-between gap-2">
+                                    <span class="font-mono text-[11px] uppercase tracking-[0.14em] font-bold text-moss-700 bg-moss-100 px-3 py-1 rounded-full">
+                                        QR SIMPLE · BO
+                                    </span>
+                                    <!-- Popover API nativo -->
+                                    <button
+                                        type="button"
+                                        popovertarget="qr-info-popover"
+                                        aria-label="Guía paso a paso para donar con QR Simple"
+                                        class="inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold text-ink-800 hover:text-moss-700 px-2.5 py-1 rounded-lg bg-white/70 border border-ink-950/10"
+                                    >
+                                        <span>¿Cómo usar?</span>
+                                        <span class="w-4 h-4 rounded-full bg-ink-950 text-white inline-flex items-center justify-center text-[10px]">?</span>
+                                    </button>
+                                </div>
+
+                                <!-- Código QR Vectorial Nítido -->
+                                <div class="my-6 p-4 bg-white/90 rounded-2xl border border-ink-950/10 shadow-inner">
+                                    <svg id="qr-svg-code" class="w-48 h-48 sm:w-52 sm:h-52 mx-auto" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Código QR Simple de Fundación CO2">
+                                        <rect width="120" height="120" rx="8" fill="white"/>
+                                        <rect x="10" y="10" width="28" height="28" rx="4" stroke="#091711" stroke-width="5"/>
+                                        <rect x="18" y="18" width="12" height="12" rx="2" fill="#1c7c54"/>
+                                        <rect x="82" y="10" width="28" height="28" rx="4" stroke="#091711" stroke-width="5"/>
+                                        <rect x="90" y="18" width="12" height="12" rx="2" fill="#1c7c54"/>
+                                        <rect x="10" y="82" width="28" height="28" rx="4" stroke="#091711" stroke-width="5"/>
+                                        <rect x="18" y="90" width="12" height="12" rx="2" fill="#1c7c54"/>
+                                        <rect x="46" y="10" width="6" height="6" fill="#091711"/>
+                                        <rect x="58" y="10" width="6" height="6" fill="#091711"/>
+                                        <rect x="70" y="16" width="6" height="6" fill="#091711"/>
+                                        <rect x="46" y="22" width="12" height="6" fill="#091711"/>
+                                        <rect x="64" y="28" width="12" height="6" fill="#091711"/>
+                                        <rect x="10" y="46" width="6" height="12" fill="#091711"/>
+                                        <rect x="22" y="46" width="12" height="6" fill="#091711"/>
+                                        <rect x="16" y="64" width="18" height="6" fill="#091711"/>
+                                        <rect x="82" y="46" width="12" height="6" fill="#091711"/>
+                                        <rect x="100" y="46" width="10" height="12" fill="#091711"/>
+                                        <rect x="82" y="64" width="6" height="12" fill="#091711"/>
+                                        <rect x="94" y="64" width="16" height="6" fill="#091711"/>
+                                        <rect x="46" y="82" width="12" height="6" fill="#091711"/>
+                                        <rect x="64" y="82" width="12" height="12" fill="#091711"/>
+                                        <rect x="46" y="94" width="6" height="16" fill="#091711"/>
+                                        <rect x="58" y="102" width="18" height="8" fill="#091711"/>
+                                        <rect x="82" y="88" width="12" height="12" fill="#091711"/>
+                                        <rect x="100" y="82" width="10" height="6" fill="#091711"/>
+                                        <rect x="98" y="96" width="12" height="14" fill="#091711"/>
+                                        <rect x="44" y="44" width="32" height="32" rx="8" fill="#0f251c"/>
+                                        <text x="60" y="65" text-anchor="middle" fill="#a7f3d0" font-family="Inter, sans-serif" font-weight="800" font-size="13">CO2</text>
+                                    </svg>
+                                    <p class="font-mono text-[10px] uppercase tracking-wider text-ink-600 mt-2.5">QR DEMOSTRATIVO · FUNDACIÓN CO2</p>
+                                </div>
+
+                                <button id="download-qr-btn" type="button" class="tactile-btn w-full inline-flex items-center justify-center gap-2 px-4 py-3.5 rounded-xl bg-ink-950 hover:bg-moss-700 text-white font-mono text-xs uppercase tracking-wider font-semibold">
+                                    <svg class="w-4 h-4 text-moss-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                                    <span>Descargar imagen QR</span>
+                                </button>
+                            </div>
+
+                            <!-- Columna Derecha: Cuenta Bancaria Institucional + Envío Comprobante -->
+                            <div class="lg:col-span-7 flex flex-col justify-between gap-6">
+                                <div class="rounded-3xl bg-white/[0.06] border border-white/14 p-6 sm:p-8 space-y-4">
+                                    <div class="flex items-center justify-between gap-2 pb-3 border-b border-white/10">
+                                        <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">02 // TRANSFERENCIA DIRECTA</span>
+                                        <span class="font-mono text-[11px] text-white/70">MONEDA: BOB (Bs)</span>
+                                    </div>
+
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div>
+                                            <span class="font-mono text-[10px] uppercase tracking-wider text-moss-200/70 block">Titular</span>
+                                            <span class="font-display font-bold text-base text-white">Fundación CO2 Bolivia</span>
+                                        </div>
+                                        <div>
+                                            <span class="font-mono text-[10px] uppercase tracking-wider text-moss-200/70 block">Entidad Bancaria</span>
+                                            <span class="font-medium text-sm text-white/95">Banco Nacional / Cuenta Institucional</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-4 rounded-2xl bg-ink-950/65 border border-moss-300/25 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                        <div>
+                                            <span class="font-mono text-[10px] uppercase tracking-wider text-moss-300 block">Número de cuenta bancaria</span>
+                                            <span id="bank-account-number" class="font-mono text-xl sm:text-2xl font-bold text-white tracking-wider">1000-0045-8921-02</span>
+                                        </div>
+                                        <button id="copy-account-btn" type="button" class="tactile-btn inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-moss-500 hover:bg-moss-300 text-ink-950 font-mono text-xs uppercase font-bold shrink-0">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                                            <span>Copiar</span>
+                                        </button>
+                                    </div>
+
+                                    <p class="text-xs text-moss-100/75 leading-relaxed">
+                                        Compatible con Banco Unión, BNB, Mercantil Santa Cruz, BCP, Bisa, Ganadero, Económico y todas las billeteras con QR Simple en Bolivia.
+                                    </p>
+                                </div>
+
+                                <!-- Paso Final: Botón Directo a WhatsApp -->
+                                <div class="rounded-3xl bg-white/[0.06] border border-white/14 p-6 sm:p-7">
+                                    <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-amberleaf-300 mb-2">03 // CONFIRMACIÓN INMEDIATA</p>
+                                    <p class="text-sm text-moss-100/90 mb-5">
+                                        Envíanos tu comprobante por WhatsApp para registrar tu donación, destinarla al programa que elijas y compartirte reportes de avance.
+                                    </p>
+                                    <a
+                                        id="whatsapp-receipt-link"
+                                        href="https://wa.me/59174962427?text=Hola%20Fundaci%C3%B3n%20CO2%2C%20acabo%20de%20realizar%20una%20donaci%C3%B3n%20de%20150%20Bs%20para%20apoyar%20sus%20programas%20ambientales.%20Adjunto%20mi%20comprobante."
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="tactile-btn w-full inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#34e276] text-ink-950 font-display font-extrabold text-base sm:text-lg px-6 py-4 rounded-2xl shadow-xl shadow-black/25"
+                                    >
+                                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.094 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.531.078-1.203.109-1.938-.125-.453-.141-1.031-.344-1.766-.672-3.109-1.344-5.141-4.484-5.297-4.688-.156-.203-1.266-1.688-1.266-3.219 0-1.531.797-2.281 1.078-2.594.281-.313.625-.391.828-.391.203 0 .422.016.609.016.188 0 .453-.078.703.531.266.625.891 2.172.969 2.328.078.156.125.344.016.547-.109.203-.156.344-.313.531-.156.188-.328.406-.469.547-.156.156-.328.328-.141.641.188.313.844 1.391 1.813 2.25 1.25 1.109 2.297 1.453 2.609 1.609.313.156.5.141.688-.078.188-.219.797-.922 1.016-1.234.219-.313.438-.266.734-.156.297.109 1.891.891 2.219 1.047.328.156.547.234.625.375.078.141.078.813-.172 1.516z"/></svg>
+                                        <span>Enviar comprobante por WhatsApp</span>
+                                    </a>
+                                    <p class="mt-3 font-mono text-[10px] text-moss-200/70 text-center">
+                                        Sin backend transaccional ni comisiones · Cobro con tarjeta disponible en actualización (Opción C).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Acordeón Exclusivo Nativo <details name="faq-donaciones"> -->
+                        <div class="mt-10 pt-8 border-t border-white/12 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+                            <div class="lg:col-span-4">
+                                <span class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300">FAQ // TRANSPARENCIA</span>
+                                <h3 class="display-title text-2xl font-bold text-white mt-2">Consultas rápidas sobre tu donación</h3>
+                            </div>
+                            <div class="lg:col-span-8 space-y-3">
+                                <details name="faq-donaciones" class="modern-accordion rounded-2xl bg-white/[0.06] border border-white/12">
+                                    <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none font-medium text-sm sm:text-base text-white hover:text-moss-300 transition-colors">
+                                        <span>¿El QR Simple funciona desde cualquier banco en Bolivia?</span>
+                                        <span class="accordion-plus font-mono text-xl leading-none text-moss-300 transition-transform duration-300">+</span>
+                                    </summary>
+                                    <div class="px-5 pb-5 text-sm text-moss-100/80 leading-relaxed">
+                                        Sí. El QR Simple es interoperable en todo el sistema financiero boliviano. Puedes escanearlo desde la pantalla o importar la imagen descargada desde tu app bancaria móvil sin comisiones.
+                                    </div>
+                                </details>
+                                <details name="faq-donaciones" class="modern-accordion rounded-2xl bg-white/[0.06] border border-white/12">
+                                    <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none font-medium text-sm sm:text-base text-white hover:text-moss-300 transition-colors">
+                                        <span>¿Puedo elegir el programa al que se destina mi aporte?</span>
+                                        <span class="accordion-plus font-mono text-xl leading-none text-moss-300 transition-transform duration-300">+</span>
+                                    </summary>
+                                    <div class="px-5 pb-5 text-sm text-moss-100/80 leading-relaxed">
+                                        Claro que sí. Al enviar tu comprobante por WhatsApp indícanos si prefieres apoyar Reforestación Nativa, Educación Ambiental o el fondo general de la fundación.
+                                    </div>
+                                </details>
+                                <details name="faq-donaciones" class="modern-accordion rounded-2xl bg-white/[0.06] border border-white/12">
+                                    <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none font-medium text-sm sm:text-base text-white hover:text-moss-300 transition-colors">
+                                        <span>¿Cómo me sumo como voluntario o aliado institucional?</span>
+                                        <span class="accordion-plus font-mono text-xl leading-none text-moss-300 transition-transform duration-300">+</span>
+                                    </summary>
+                                    <div class="px-5 pb-5 text-sm text-moss-100/80 leading-relaxed">
+                                        Escríbenos directamente en el formulario de Contacto o vía WhatsApp al +591 74962427 y te integraremos a la siguiente jornada de campo o mesa de alianzas.
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             SECCIÓN 6: CONTACTO (CONSERJERÍA DE CRISTAL + CANALES DIRECTOS)
+             WhatsApp (+591 74962427), Email (contrerasjob123@gmail.com), Redes y Form
+        ======================================================================== -->
+        <section id="contacto" class="px-4 sm:px-6 lg:px-8 py-20 sm:py-28 cv-auto">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 items-start">
+                    <!-- Columna Izquierda (5 cols): Canales Directos + Redes -->
+                    <div class="lg:col-span-5 space-y-5">
+                        <div class="glass-panel specular-track rounded-[2rem] p-7 sm:p-9">
+                            <span class="font-mono text-xs uppercase tracking-[0.18em] text-moss-600 font-semibold block mb-3">
+                                SEC_06 // CONTACTO DIRECTO
+                            </span>
+                            <h2 class="display-title text-3xl sm:text-5xl font-extrabold text-ink-950 leading-[1.0]">
+                                Hablemos sobre tu próximo paso verde.
+                            </h2>
+                            <p class="mt-4 text-sm sm:text-base text-ink-800 leading-relaxed">
+                                Atención inmediata para voluntariado, donaciones, talleres educativos y alianzas de sostenibilidad en Bolivia.
+                            </p>
+                        </div>
+
+                        <!-- Canal WhatsApp -->
+                        <a href="https://wa.me/59174962427?text=Hola%20Fundaci%C3%B3n%20CO2%2C%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20con%20ustedes." target="_blank" rel="noopener noreferrer" class="glass-elevated specular-track glass-hover rounded-3xl p-5 sm:p-6 flex items-center justify-between gap-4 group">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 rounded-2xl bg-[#25D366]/20 text-moss-700 flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.094 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.531.078-1.203.109-1.938-.125-.453-.141-1.031-.344-1.766-.672-3.109-1.344-5.141-4.484-5.297-4.688-.156-.203-1.266-1.688-1.266-3.219 0-1.531.797-2.281 1.078-2.594.281-.313.625-.391.828-.391.203 0 .422.016.609.016.188 0 .453-.078.703.531.266.625.891 2.172.969 2.328.078.156.125.344.016.547-.109.203-.156.344-.313.531-.156.188-.328.406-.469.547-.156.156-.328.328-.141.641.188.313.844 1.391 1.813 2.25 1.25 1.109 2.297 1.453 2.609 1.609.313.156.5.141.688-.078.188-.219.797-.922 1.016-1.234.219-.313.438-.266.734-.156.297.109 1.891.891 2.219 1.047.328.156.547.234.625.375.078.141.078.813-.172 1.516z"/></svg>
+                                </div>
+                                <div>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-ink-600 block">WHATSAPP / TELÉFONO</span>
+                                    <span class="font-display font-bold text-lg text-ink-950 group-hover:text-moss-700">+591 74962427</span>
+                                </div>
+                            </div>
+                            <span class="font-mono text-sm text-moss-700 group-hover:translate-x-1 transition-transform">↗</span>
+                        </a>
+
+                        <!-- Canal Correo Electrónico -->
+                        <a href="mailto:contrerasjob123@gmail.com?subject=Consulta%20-%20Fundaci%C3%B3n%20CO2" class="glass-elevated specular-track glass-hover rounded-3xl p-5 sm:p-6 flex items-center justify-between gap-4 group">
+                            <div class="flex items-center gap-4 min-w-0">
+                                <div class="w-12 h-12 rounded-2xl bg-moss-100 text-moss-700 flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                </div>
+                                <div class="min-w-0">
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-ink-600 block">CORREO ELECTRÓNICO</span>
+                                    <span class="font-display font-bold text-base sm:text-lg text-ink-950 group-hover:text-moss-700 block truncate">contrerasjob123@gmail.com</span>
+                                </div>
+                            </div>
+                            <span class="font-mono text-sm text-moss-700 shrink-0 group-hover:translate-x-1 transition-transform">↗</span>
+                        </a>
+
+                        <!-- Redes Sociales -->
+                        <div class="glass-panel rounded-3xl p-5 sm:p-6">
+                            <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-ink-600 block mb-3">CANALES SOCIALES</span>
+                            <div class="flex flex-wrap gap-2.5">
+                                <a href="#inicio" class="tactile-btn px-4 py-2.5 rounded-xl bg-white/75 hover:bg-ink-950 hover:text-white font-mono text-xs font-semibold text-ink-900 border border-white transition-colors">Instagram</a>
+                                <a href="#inicio" class="tactile-btn px-4 py-2.5 rounded-xl bg-white/75 hover:bg-ink-950 hover:text-white font-mono text-xs font-semibold text-ink-900 border border-white transition-colors">Facebook</a>
+                                <a href="#inicio" class="tactile-btn px-4 py-2.5 rounded-xl bg-white/75 hover:bg-ink-950 hover:text-white font-mono text-xs font-semibold text-ink-900 border border-white transition-colors">LinkedIn</a>
+                                <a href="#inicio" class="tactile-btn px-4 py-2.5 rounded-xl bg-white/75 hover:bg-ink-950 hover:text-white font-mono text-xs font-semibold text-ink-900 border border-white transition-colors">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha (7 cols): Formulario Funcional sobre Cristal Elevado -->
+                    <div class="lg:col-span-7 glass-elevated specular-track rounded-[2rem] p-7 sm:p-10">
+                        <div class="flex flex-wrap items-center justify-between gap-2 pb-5 border-b border-ink-950/10">
+                            <div>
+                                <h3 class="display-title text-2xl sm:text-3xl font-extrabold text-ink-950">Enviar un mensaje</h3>
+                                <p class="text-xs sm:text-sm text-ink-700 mt-1">Respuesta directa por correo o coordinación inmediata por WhatsApp.</p>
+                            </div>
+                            <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-moss-700 bg-moss-100/80 px-3 py-1 rounded-full">FORM // ACTIVO</span>
+                        </div>
+
+                        <form id="contact-form" class="mt-6 space-y-5" novalidate>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="contact-name" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1.5">Nombre completo *</label>
+                                    <input
+                                        type="text"
+                                        id="contact-name"
+                                        name="name"
+                                        autocomplete="name"
+                                        required
+                                        minlength="3"
+                                        placeholder="Ej. Lucía Mendoza"
+                                        class="mwg-field w-full px-4 py-3.5 rounded-xl border border-ink-950/15 bg-white/75 text-ink-950 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600 transition-colors"
+                                    >
+                                    <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Ingresa tu nombre (mínimo 3 caracteres).</p>
+                                </div>
+
+                                <div>
+                                    <label for="contact-email" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1.5">Correo electrónico *</label>
+                                    <input
+                                        type="email"
+                                        id="contact-email"
+                                        name="email"
+                                        autocomplete="email"
+                                        required
+                                        placeholder="nombre@correo.com"
+                                        class="mwg-field w-full px-4 py-3.5 rounded-xl border border-ink-950/15 bg-white/75 text-ink-950 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600 transition-colors"
+                                    >
+                                    <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Ingresa un correo electrónico válido.</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="contact-phone" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1.5">Teléfono / WhatsApp</label>
+                                    <input
+                                        type="tel"
+                                        id="contact-phone"
+                                        name="phone"
+                                        autocomplete="tel"
+                                        placeholder="+591 70000000"
+                                        class="w-full px-4 py-3.5 rounded-xl border border-ink-950/15 bg-white/75 text-ink-950 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600 transition-colors"
+                                    >
+                                </div>
+
+                                <div>
+                                    <label for="contact-subject" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1.5">Motivo de consulta *</label>
+                                    <select
+                                        id="contact-subject"
+                                        name="subject"
+                                        required
+                                        class="mwg-field w-full px-4 py-3.5 rounded-xl border border-ink-950/15 bg-white/75 text-ink-950 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600 transition-colors"
+                                    >
+                                        <option value="" disabled selected>Selecciona una opción</option>
+                                        <option value="Voluntariado ambiental">Quiero ser voluntario</option>
+                                        <option value="Consulta sobre donaciones">Consulta sobre donaciones</option>
+                                        <option value="Alianza institucional / empresarial">Alianza institucional o empresarial</option>
+                                        <option value="Talleres educativos">Solicitar taller educativo</option>
+                                        <option value="Información general">Información general</option>
+                                    </select>
+                                    <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Selecciona un motivo de contacto.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="contact-message" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1.5">Mensaje *</label>
+                                <textarea
+                                    id="contact-message"
+                                    name="message"
+                                    required
+                                    minlength="10"
+                                    placeholder="Cuéntanos cómo deseas participar o qué proyecto ambiental te gustaría impulsar..."
+                                    class="mwg-field auto-grow w-full px-4 py-3.5 rounded-xl border border-ink-950/15 bg-white/75 text-ink-950 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600 transition-colors resize-y"
+                                ></textarea>
+                                <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Escribe al menos 10 caracteres.</p>
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                                <button type="submit" class="tactile-btn flex-1 inline-flex items-center justify-center gap-2.5 bg-ink-950 hover:bg-moss-700 text-white font-mono text-xs uppercase tracking-wider font-bold px-6 py-4 rounded-2xl shadow-lg">
+                                    <span>Enviar mensaje</span>
+                                    <span>→</span>
+                                </button>
+                                <button id="send-via-whatsapp-btn" type="button" class="tactile-btn inline-flex items-center justify-center gap-2 bg-white/80 hover:bg-white text-ink-950 border border-ink-950/15 font-mono text-xs uppercase tracking-wider font-semibold px-5 py-4 rounded-2xl">
+                                    <span>Abrir en WhatsApp</span>
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Confirmación en línea accesible -->
+                        <div id="contact-success-box" role="status" aria-live="polite" class="hidden mt-6 p-5 rounded-2xl bg-moss-100/85 border border-moss-500/30 text-ink-950">
+                            <p class="font-display font-bold text-base">¡Mensaje registrado correctamente!</p>
+                            <p class="text-xs sm:text-sm text-ink-800 mt-1">
+                                Gracias por escribir a <strong>Fundación CO2</strong>. También puedes contactarnos directo en <strong>contrerasjob123@gmail.com</strong> o al <strong>+591 74962427</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =======================================================================
+         PIE DE PÁGINA ARQUITECTÓNICO
+    ======================================================================== -->
+    <footer class="px-4 sm:px-6 lg:px-8 pb-10">
+        <div class="max-w-7xl mx-auto glass-obsidian rounded-[2rem] p-7 sm:p-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8 border-b border-white/12">
+                <div class="md:col-span-5">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-moss-500/25 border border-moss-300/30 flex items-center justify-center font-display font-extrabold text-sm text-moss-300">
+                            CO<sub>2</sub>
+                        </div>
+                        <span class="display-title text-2xl font-bold text-white">Fundación CO2</span>
+                    </div>
+                    <p class="mt-4 text-sm text-moss-100/80 leading-relaxed max-w-sm">
+                        Conservación ambiental, reforestación nativa y educación climática en Bolivia con diseño transparente y código fuente 100% entregable.
+                    </p>
+                </div>
+
+                <div class="md:col-span-3">
+                    <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300 mb-4">ÍNDICE</p>
+                    <ul class="space-y-2 text-sm text-moss-100/85">
+                        <li><a href="#inicio" class="hover:text-white transition-colors">01. Inicio</a></li>
+                        <li><a href="#institucional" class="hover:text-white transition-colors">02. Información Institucional</a></li>
+                        <li><a href="#programas" class="hover:text-white transition-colors">03. Programas</a></li>
+                        <li><a href="#noticias" class="hover:text-white transition-colors">04. Noticias / Blog</a></li>
+                        <li><a href="#donaciones" class="hover:text-white transition-colors">05. Donaciones</a></li>
+                        <li><a href="#contacto" class="hover:text-white transition-colors">06. Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-4">
+                    <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-moss-300 mb-4">CONEXIÓN DIRECTA</p>
+                    <ul class="space-y-2.5 text-sm text-moss-100/90 font-mono">
+                        <li><a href="https://wa.me/59174962427" target="_blank" rel="noopener noreferrer" class="hover:text-moss-300 transition-colors">WA // +591 74962427</a></li>
+                        <li><a href="mailto:contrerasjob123@gmail.com" class="hover:text-moss-300 transition-colors break-all">EM // contrerasjob123@gmail.com</a></li>
+                    </ul>
+                    <div class="mt-5 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/15 font-mono text-[10px] uppercase tracking-wider text-moss-200">
+                        <span class="w-1.5 h-1.5 rounded-full bg-moss-300" aria-hidden="true"></span>
+                        PROPUESTA BASE · GLASSMORPHISM EDITORIAL
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 font-mono text-[11px] text-moss-200/70">
+                <p>© <span id="current-year"></span> FUNDACIÓN CO2 BOLIVIA.</p>
+                <p>RESPONSIVE · SEO TÉCNICO · CÓDIGO FUENTE ENTREGABLE</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp sobre Cristal -->
+    <a
+        href="https://wa.me/59174962427?text=Hola%20Fundaci%C3%B3n%20CO2%2C%20quisiera%20recibir%20informaci%C3%B3n."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Escribir por WhatsApp a Fundación CO2"
+        class="tactile-btn fixed bottom-5 right-5 z-30 inline-flex items-center gap-2.5 bg-[#25D366] hover:bg-[#2ee070] text-ink-950 font-mono text-xs uppercase tracking-wider font-bold px-4 py-3.5 rounded-2xl shadow-2xl shadow-ink-950/30 border border-white/50"
+    >
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.094 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.531.078-1.203.109-1.938-.125-.453-.141-1.031-.344-1.766-.672-3.109-1.344-5.141-4.484-5.297-4.688-.156-.203-1.266-1.688-1.266-3.219 0-1.531.797-2.281 1.078-2.594.281-.313.625-.391.828-.391.203 0 .422.016.609.016.188 0 .453-.078.703.531.266.625.891 2.172.969 2.328.078.156.125.344.016.547-.109.203-.156.344-.313.531-.156.188-.328.406-.469.547-.156.156-.328.328-.141.641.188.313.844 1.391 1.813 2.25 1.25 1.109 2.297 1.453 2.609 1.609.313.156.5.141.688-.078.188-.219.797-.922 1.016-1.234.219-.313.438-.266.734-.156.297.109 1.891.891 2.219 1.047.328.156.547.234.625.375.078.141.078.813-.172 1.516z"/></svg>
+        <span class="hidden sm:inline">WhatsApp</span>
+    </a>
+
+    <!-- =======================================================================
+         COMPONENTES TOP-LAYER NATIVOS (Popover API + <dialog>)
+    ======================================================================== -->
+
+    <!-- 1) Popover Informativo QR Simple -->
+    <div id="qr-info-popover" popover="auto" class="modern-popover glass-elevated m-auto max-w-sm rounded-3xl p-6 text-ink-950">
+        <div class="flex items-start justify-between gap-3">
+            <div>
+                <span class="font-mono text-[10px] uppercase tracking-wider text-moss-600 font-semibold">GUÍA RÁPIDA</span>
+                <h4 class="display-title font-bold text-lg text-ink-950">Cómo donar con QR Simple</h4>
+            </div>
+            <button type="button" popovertarget="qr-info-popover" popovertargetaction="hide" aria-label="Cerrar guía" class="p-1.5 rounded-xl bg-white/70 hover:bg-white text-ink-800">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+        <ol class="mt-4 space-y-2.5 text-xs sm:text-sm text-ink-800 list-decimal list-inside leading-relaxed">
+            <li>Abre tu aplicación bancaria en Bolivia y entra a <strong>Pago con QR Simple</strong>.</li>
+            <li>Escanea el código desde tu pantalla o carga la imagen descargada.</li>
+            <li>Confirma el monto y envíanos el comprobante por WhatsApp.</li>
+        </ol>
+    </div>
+
+    <!-- 2) Toast en Top-Layer (reemplaza alert()) -->
+    <div id="toast-popover" popover="manual" role="status" aria-live="polite" class="modern-popover glass-obsidian fixed bottom-6 left-1/2 -translate-x-1/2 m-0 px-5 py-3.5 rounded-2xl max-w-[92vw]">
+        <div class="flex items-center gap-2.5 font-mono text-xs text-white">
+            <span class="w-2 h-2 rounded-full bg-moss-300 shrink-0" aria-hidden="true"></span>
+            <span id="toast-message">Acción completada</span>
+        </div>
+    </div>
+
+    <!-- 3) Modal Nativo <dialog>: Lector de Artículo -->
+    <dialog id="news-reader-dialog" closedby="any" aria-labelledby="reader-title" class="modern-dialog glass-elevated m-auto w-[94vw] max-w-2xl rounded-[2rem] p-0 text-ink-950 overflow-hidden">
+        <div class="relative max-h-[88vh] overflow-y-auto">
+            <div class="relative h-56 sm:h-64 bg-ink-950">
+                <img id="reader-image" src="" alt="" class="w-full h-full object-cover">
+                <button
+                    type="button"
+                    data-close-dialog="news-reader-dialog"
+                    commandfor="news-reader-dialog"
+                    command="close"
+                    aria-label="Cerrar artículo"
+                    class="absolute top-4 right-4 p-2.5 rounded-full bg-ink-950/75 hover:bg-ink-950 text-white backdrop-blur-md"
+                >
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+                <span id="reader-category" class="absolute bottom-4 left-6 glass-obsidian font-mono text-[11px] uppercase tracking-wider text-moss-300 px-3.5 py-1 rounded-full"></span>
+            </div>
+            <div class="p-6 sm:p-8">
+                <time id="reader-date" class="font-mono text-xs uppercase tracking-wider text-ink-600"></time>
+                <h3 id="reader-title" class="display-title text-2xl sm:text-3xl font-extrabold text-ink-950 mt-2 leading-tight"></h3>
+                <p id="reader-content" class="mt-4 text-ink-800 leading-relaxed text-sm sm:text-base whitespace-pre-line"></p>
+                <div class="mt-8 pt-5 border-t border-ink-950/10 flex flex-wrap items-center justify-between gap-3">
+                    <a href="#donaciones" data-close-dialog="news-reader-dialog" class="tactile-btn inline-flex items-center gap-2 bg-ink-950 hover:bg-moss-700 text-white font-mono text-xs uppercase tracking-wider font-semibold px-5 py-3 rounded-xl">
+                        Apoyar esta causa →
+                    </a>
+                    <button type="button" data-close-dialog="news-reader-dialog" commandfor="news-reader-dialog" command="close" class="px-5 py-3 rounded-xl bg-white/75 hover:bg-white text-ink-900 font-mono text-xs uppercase font-semibold border border-ink-950/10">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <!-- 4) Modal Nativo <dialog>: Publicar Noticia (Demo Administrable) -->
+    <dialog id="admin-news-dialog" closedby="any" aria-labelledby="admin-dialog-title" class="modern-dialog glass-elevated m-auto w-[94vw] max-w-xl rounded-[2rem] p-0 text-ink-950 overflow-hidden">
+        <div class="max-h-[88vh] overflow-y-auto p-6 sm:p-8">
+            <div class="flex items-start justify-between gap-4 pb-4 border-b border-ink-950/10">
+                <div>
+                    <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-moss-700 bg-moss-100 px-2.5 py-1 rounded-full font-semibold">
+                        DEMO ADMIN // BITÁCORA
+                    </span>
+                    <h3 id="admin-dialog-title" class="display-title text-2xl font-extrabold text-ink-950 mt-2">Nueva publicación</h3>
+                </div>
+                <button type="button" data-close-dialog="admin-news-dialog" commandfor="admin-news-dialog" command="close" aria-label="Cerrar ventana" class="p-2 rounded-xl bg-white/70 hover:bg-white text-ink-800">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+
+            <form id="admin-news-form" class="mt-5 space-y-4" novalidate>
+                <div>
+                    <label for="news-title-input" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1">Título de la noticia *</label>
+                    <input id="news-title-input" type="text" required minlength="6" placeholder="Ej. Siembra comunitaria de 600 tajibos nativos" class="mwg-field w-full px-4 py-3 rounded-xl border border-ink-950/15 bg-white/80 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600">
+                    <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Ingresa un título de al menos 6 caracteres.</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label for="news-category-input" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1">Categoría *</label>
+                        <select id="news-category-input" required class="mwg-field w-full px-4 py-3 rounded-xl border border-ink-950/15 bg-white/80 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600">
+                            <option value="Reforestación">Reforestación</option>
+                            <option value="Educación">Educación</option>
+                            <option value="Eventos">Eventos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="news-image-input" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1">URL imagen (opcional)</label>
+                        <input id="news-image-input" type="url" placeholder="https://..." class="w-full px-4 py-3 rounded-xl border border-ink-950/15 bg-white/80 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="news-summary-input" class="block font-mono text-[11px] uppercase tracking-wider font-semibold text-ink-800 mb-1">Contenido / Crónica *</label>
+                    <textarea id="news-summary-input" required minlength="15" placeholder="Describe la actividad, participantes y resultados ambientales..." class="mwg-field auto-grow w-full px-4 py-3 rounded-xl border border-ink-950/15 bg-white/80 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-moss-600"></textarea>
+                    <p class="mwg-error font-mono text-[11px] text-red-700 mt-1">Escribe una descripción de al menos 15 caracteres.</p>
+                </div>
+
+                <div class="pt-3 flex items-center justify-end gap-3">
+                    <button type="button" data-close-dialog="admin-news-dialog" commandfor="admin-news-dialog" command="close" class="px-4 py-3 rounded-xl bg-white/75 hover:bg-white text-ink-800 font-mono text-xs uppercase font-semibold border border-ink-950/10">
+                        Cancelar
+                    </button>
+                    <button type="submit" class="tactile-btn px-5 py-3 rounded-xl bg-ink-950 hover:bg-moss-700 text-white font-mono text-xs uppercase tracking-wider font-bold shadow-md">
+                        Publicar ahora
+                    </button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <!-- =======================================================================
+         JAVASCRIPT LIGERO: REFLEJO ESPECULAR, BITÁCORA DINÁMICA Y DONACIONES
+    ======================================================================== -->
+    <script>
+        (function () {
+            'use strict';
+
+            /* -------------------------------------------------------------------
+             * 1. MICROINTERACCIÓN DE CRISTAL: REFLEJO ESPECULAR SIGUIENDO CURSOR
+             * ------------------------------------------------------------------- */
+            function bindSpecularPanels(root = document) {
+                root.querySelectorAll('.specular-track').forEach((panel) => {
+                    if (panel.dataset.specularBound === 'true') return;
+                    panel.dataset.specularBound = 'true';
+                    panel.addEventListener('pointermove', (event) => {
+                        if (event.pointerType === 'touch') return;
+                        const rect = panel.getBoundingClientRect();
+                        panel.style.setProperty('--mx', `${event.clientX - rect.left}px`);
+                        panel.style.setProperty('--my', `${event.clientY - rect.top}px`);
+                    });
+                });
+            }
+            bindSpecularPanels();
+
+            /* -------------------------------------------------------------------
+             * 2. ESTADO INICIAL DE NOTICIAS / BLOG
+             * ------------------------------------------------------------------- */
+            const newsItems = [
+                {
+                    id: 1,
+                    title: 'Jornada comunitaria suma 1.200 árboles nativos en corredor verde urbano',
+                    category: 'Reforestación',
+                    date: '14 NOV 2026',
+                    image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1000&q=80',
+                    excerpt: 'Más de 120 voluntarios, familias y brigadas juveniles participaron en la plantación y georreferenciación de especies nativas resistentes al clima local.',
+                    content: 'Con el compromiso de más de 120 voluntarios y vecinos, la Fundación CO2 culminó una nueva jornada de restauración ecológica con especies nativas producidas en vivero.\n\nCada plantín fue registrado con fichas de riego comunitario y seguimiento trimestral para asegurar una supervivencia superior al 85% durante la estación seca.'
+                },
+                {
+                    id: 2,
+                    title: 'Talleres de educación climática y compostaje llegan a 12 colegios',
+                    category: 'Educación',
+                    date: '02 NOV 2026',
+                    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=80',
+                    excerpt: 'Estudiantes de secundaria implementaron puntos ecológicos y midieron la huella de carbono de sus aulas.',
+                    content: 'Nuestro equipo de educadores visitó 12 unidades educativas con sesiones prácticas de separación de residuos, compostaje escolar y ahorro energético.\n\nCada institución conformó su brigada juvenil CO2 con acompañamiento continuo.'
+                },
+                {
+                    id: 3,
+                    title: 'Feria Verde CO2 conecta emprendimientos sostenibles y donantes',
+                    category: 'Eventos',
+                    date: '19 OCT 2026',
+                    image: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=900&q=80',
+                    excerpt: 'Más de 400 asistentes participaron en el trueque de plantines y recaudación directa para viveros comunitarios.',
+                    content: 'La Feria Verde CO2 reunió a emprendedores ecológicos, familias y organizaciones ciudadanas en una jornada abierta dedicada a la economía circular.\n\nLos fondos recaudados mediante QR Simple se destinaron íntegramente a sustrato, semillas nativas y herramientas de riego.'
+                }
+            ];
+
+            let activeCategory = 'Todas';
+            let toastTimer = null;
+
+            /* -------------------------------------------------------------------
+             * 3. UTILIDADES (Toast en Top-Layer, View Transitions y escape HTML)
+             * ------------------------------------------------------------------- */
+            const toastEl = document.getElementById('toast-popover');
+            const toastMsg = document.getElementById('toast-message');
+
+            function showToast(message) {
+                try {
+                    toastMsg.textContent = message;
+                    if (typeof toastEl.showPopover === 'function') {
+                        if (toastEl.matches(':popover-open')) toastEl.hidePopover();
+                        toastEl.showPopover();
+                    } else {
+                        toastEl.style.display = 'block';
+                    }
+                    clearTimeout(toastTimer);
+                    toastTimer = setTimeout(() => {
+                        if (typeof toastEl.hidePopover === 'function' && toastEl.matches(':popover-open')) {
+                            toastEl.hidePopover();
+                        } else {
+                            toastEl.style.display = 'none';
+                        }
+                    }, 3400);
+                } catch (err) {
+                    console.error('Error en notificación:', err);
+                }
+            }
+
+            function runWithViewTransition(updateFn) {
+                const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                if (typeof document.startViewTransition === 'function' && !prefersReduced) {
+                    document.startViewTransition(updateFn);
+                } else {
+                    updateFn();
+                }
+            }
+
+            function escapeHTML(str) {
+                const div = document.createElement('div');
+                div.textContent = str;
+                return div.innerHTML;
+            }
+
+            /* -------------------------------------------------------------------
+             * 4. NAVEGACIÓN MÓVIL Y AÑO
+             * ------------------------------------------------------------------- */
+            const yearEl = document.getElementById('current-year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIconOpen = document.getElementById('menu-icon-open');
+            const menuIconClose = document.getElementById('menu-icon-close');
+
+            function toggleMobileMenu(forceClose = false) {
+                const isOpen = !mobileMenu.classList.contains('hidden');
+                const shouldOpen = forceClose ? false : !isOpen;
+                mobileMenu.classList.toggle('hidden', !shouldOpen);
+                menuIconOpen.classList.toggle('hidden', shouldOpen);
+                menuIconClose.classList.toggle('hidden', !shouldOpen);
+                mobileMenuBtn.setAttribute('aria-expanded', String(shouldOpen));
+            }
+
+            mobileMenuBtn.addEventListener('click', () => toggleMobileMenu());
+            document.querySelectorAll('.mobile-nav-link').forEach((link) => {
+                link.addEventListener('click', () => toggleMobileMenu(true));
+            });
+
+            /* -------------------------------------------------------------------
+             * 5. MODALES NATIVOS <dialog> (Light Dismiss + Fallback Invoker)
+             * ------------------------------------------------------------------- */
+            const readerDialog = document.getElementById('news-reader-dialog');
+            const adminDialog = document.getElementById('admin-news-dialog');
+            const openAdminBtn = document.getElementById('open-admin-modal-btn');
+
+            function openDialogSafe(dialogEl) {
+                if (!dialogEl.open) dialogEl.showModal();
+            }
+            function closeDialogSafe(dialogEl) {
+                if (dialogEl.open) dialogEl.close();
+            }
+
+            openAdminBtn.addEventListener('click', () => {
+                if (!adminDialog.open) openDialogSafe(adminDialog);
+            });
+
+            document.querySelectorAll('[data-close-dialog]').forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const target = document.getElementById(btn.dataset.closeDialog);
+                    if (target) closeDialogSafe(target);
+                });
+            });
+
+            [readerDialog, adminDialog].forEach((dialogEl) => {
+                dialogEl.addEventListener('click', (event) => {
+                    if (event.target === dialogEl) closeDialogSafe(dialogEl);
+                });
+            });
+
+            /* -------------------------------------------------------------------
+             * 6. BITÁCORA EDITORIAL ASIMÉTRICA (1er artículo destacado 7 cols)
+             * ------------------------------------------------------------------- */
+            const newsGrid = document.getElementById('news-grid');
+            const newsCountStatus = document.getElementById('news-count-status');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            function renderNews() {
+                const filtered = activeCategory === 'Todas'
+                    ? newsItems
+                    : newsItems.filter((item) => item.category === activeCategory);
+
+                const paddedCount = String(filtered.length).padStart(2, '0');
+                newsCountStatus.textContent = filtered.length === 1
+                    ? '01 PUBLICACIÓN'
+                    : `${paddedCount} PUBLICACIONES`;
+
+                if (filtered.length === 0) {
+                    newsGrid.innerHTML = `
+                        <div class="col-span-full text-center py-14 rounded-3xl bg-white/50 border border-white">
+                            <p class="font-mono text-xs uppercase tracking-wider text-ink-600">Sin publicaciones registradas en esta categoría.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                newsGrid.innerHTML = filtered.map((item, idx) => {
+                    // Primer artículo: pieza destacada asimétrica (7 cols en escritorio)
+                    if (idx === 0) {
+                        return `
+                            <article class="lg:col-span-7 glass-elevated specular-track glass-hover rounded-3xl overflow-hidden flex flex-col justify-between group">
+                                <div class="relative h-64 sm:h-72 overflow-hidden bg-ink-950">
+                                    <img
+                                        src="${escapeHTML(item.image)}"
+                                        onerror="this.onerror=null; this.src='https://placehold.co/900x600/0f251c/d4ede0?text=Fundacion+CO2';"
+                                        alt="${escapeHTML(item.title)}"
+                                        loading="lazy"
+                                        decoding="async"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                    >
+                                    <div class="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent"></div>
+                                    <div class="absolute top-4 left-4 flex items-center gap-2">
+                                        <span class="glass-obsidian px-3 py-1 rounded-full font-mono text-[10px] uppercase tracking-wider text-moss-300">DESTACADO</span>
+                                        <span class="bg-white/85 backdrop-blur-md px-3 py-1 rounded-full font-mono text-[10px] uppercase font-semibold text-ink-950">${escapeHTML(item.category)}</span>
+                                    </div>
+                                </div>
+                                <div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+                                    <div>
+                                        <time class="font-mono text-[11px] uppercase tracking-wider text-ink-600">${escapeHTML(item.date)}</time>
+                                        <h3 class="display-title text-2xl sm:text-3xl font-extrabold text-ink-950 mt-2 leading-tight group-hover:text-moss-700 transition-colors">
+                                            ${escapeHTML(item.title)}
+                                        </h3>
+                                        <p class="mt-3 text-sm sm:text-base text-ink-800 leading-relaxed">
+                                            ${escapeHTML(item.excerpt)}
+                                        </p>
+                                    </div>
+                                    <div class="mt-6 pt-4 border-t border-ink-950/10">
+                                        <button type="button" data-news-id="${item.id}" class="read-news-btn inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider font-bold text-ink-950 hover:text-moss-600">
+                                            <span>Leer crónica completa</span>
+                                            <span>→</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+                        `;
+                    }
+
+                    // Artículos secundarios: 5 cols el segundo, 6 cols los siguientes (rompiendo simetría de 3)
+                    const colSpanClass = idx === 1 ? 'lg:col-span-5' : 'lg:col-span-6';
+                    return `
+                        <article class="${colSpanClass} glass-panel specular-track glass-hover rounded-3xl overflow-hidden flex flex-col justify-between group">
+                            <div class="relative h-48 overflow-hidden bg-ink-950">
+                                <img
+                                    src="${escapeHTML(item.image)}"
+                                    onerror="this.onerror=null; this.src='https://placehold.co/800x500/146342/d4ede0?text=Fundacion+CO2';"
+                                    alt="${escapeHTML(item.title)}"
+                                    loading="lazy"
+                                    decoding="async"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                >
+                                <span class="absolute top-3.5 left-3.5 bg-white/85 backdrop-blur-md px-3 py-1 rounded-full font-mono text-[10px] uppercase font-semibold text-ink-950">
+                                    ${escapeHTML(item.category)}
+                                </span>
+                            </div>
+                            <div class="p-6 flex-1 flex flex-col justify-between">
+                                <div>
+                                    <time class="font-mono text-[11px] uppercase tracking-wider text-ink-600">${escapeHTML(item.date)}</time>
+                                    <h3 class="display-title text-xl font-bold text-ink-950 mt-2 leading-snug group-hover:text-moss-700 transition-colors">
+                                        ${escapeHTML(item.title)}
+                                    </h3>
+                                    <p class="mt-2.5 text-sm text-ink-800 leading-relaxed">
+                                        ${escapeHTML(item.excerpt)}
+                                    </p>
+                                </div>
+                                <div class="mt-5 pt-4 border-t border-ink-950/10">
+                                    <button type="button" data-news-id="${item.id}" class="read-news-btn inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider font-bold text-moss-700 hover:text-ink-950">
+                                        <span>Abrir artículo</span>
+                                        <span>→</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </article>
+                    `;
+                }).join('');
+
+                bindSpecularPanels(newsGrid);
+            }
+
+            newsGrid.addEventListener('click', (event) => {
+                const btn = event.target.closest('.read-news-btn');
+                if (!btn) return;
+                const article = newsItems.find((n) => n.id === Number(btn.dataset.newsId));
+                if (!article) return;
+
+                const imgEl = document.getElementById('reader-image');
+                imgEl.src = article.image;
+                imgEl.alt = article.title;
+                imgEl.onerror = function () {
+                    this.onerror = null;
+                    this.src = 'https://placehold.co/900x520/0f251c/d4ede0?text=Fundacion+CO2';
+                };
+                document.getElementById('reader-category').textContent = article.category;
+                document.getElementById('reader-date').textContent = article.date;
+                document.getElementById('reader-title').textContent = article.title;
+                document.getElementById('reader-content').textContent = article.content;
+
+                openDialogSafe(readerDialog);
+            });
+
+            filterBtns.forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    activeCategory = btn.dataset.category;
+                    filterBtns.forEach((b) => {
+                        const isActive = b === btn;
+                        b.setAttribute('aria-pressed', String(isActive));
+                        b.className = isActive
+                            ? 'filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-ink-950 text-white transition-all'
+                            : 'filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-white/65 text-ink-800 hover:bg-white transition-all';
+                    });
+                    runWithViewTransition(renderNews);
+                });
+            });
+
+            const adminNewsForm = document.getElementById('admin-news-form');
+            adminNewsForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                if (!adminNewsForm.checkValidity()) {
+                    adminNewsForm.reportValidity();
+                    return;
+                }
+
+                const title = document.getElementById('news-title-input').value.trim();
+                const category = document.getElementById('news-category-input').value;
+                const imageInput = document.getElementById('news-image-input').value.trim();
+                const body = document.getElementById('news-summary-input').value.trim();
+
+                const todayFormatted = new Intl.DateTimeFormat('es-BO', {
+                    day: '2-digit',
+                    month: 'short',
+                    year: 'numeric'
+                }).format(new Date()).toUpperCase();
+
+                newsItems.unshift({
+                    id: Date.now(),
+                    title,
+                    category,
+                    date: todayFormatted,
+                    image: imageInput || 'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=950&q=80',
+                    excerpt: body.length > 145 ? body.slice(0, 145) + '...' : body,
+                    content: body
+                });
+
+                activeCategory = 'Todas';
+                filterBtns.forEach((b) => {
+                    const isAll = b.dataset.category === 'Todas';
+                    b.setAttribute('aria-pressed', String(isAll));
+                    b.className = isAll
+                        ? 'filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-ink-950 text-white transition-all'
+                        : 'filter-btn px-4 py-2.5 rounded-xl font-mono text-xs uppercase tracking-wider font-semibold bg-white/65 text-ink-800 hover:bg-white transition-all';
+                });
+
+                adminNewsForm.reset();
+                closeDialogSafe(adminDialog);
+                runWithViewTransition(renderNews);
+                showToast('Publicación agregada a la bitácora de Fundación CO2');
+            });
+
+            renderNews();
+
+            /* -------------------------------------------------------------------
+             * 7. DONACIONES: SELECTOR DE IMPACTO, COPIADO DE CUENTA Y DESCARGA QR
+             * ------------------------------------------------------------------- */
+            const tierBtns = document.querySelectorAll('.tier-btn');
+            const impactBanner = document.getElementById('donation-impact-banner');
+            const waReceiptLink = document.getElementById('whatsapp-receipt-link');
+
+            tierBtns.forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const amount = btn.dataset.amount;
+                    const impact = btn.dataset.impact;
+
+                    tierBtns.forEach((b) => {
+                        const isSelected = b === btn;
+                        b.setAttribute('aria-pressed', String(isSelected));
+                        b.classList.toggle('border-2', isSelected);
+                        b.classList.toggle('border-moss-300', isSelected);
+                        b.classList.toggle('bg-moss-500/25', isSelected);
+                        b.classList.toggle('shadow-lg', isSelected);
+                        b.classList.toggle('border', !isSelected);
+                        b.classList.toggle('border-white/15', !isSelected);
+                        b.classList.toggle('bg-white/5', !isSelected);
+                    });
+
+                    impactBanner.textContent = `${amount} → ${impact}`;
+                    const waText = `Hola Fundación CO2, acabo de realizar una donación (${amount}) para apoyar sus programas ambientales. Adjunto mi comprobante.`;
+                    waReceiptLink.href = `https://wa.me/59174962427?text=${encodeURIComponent(waText)}`;
+                });
+            });
+
+            // Copiado seguro compatible con iframes
+            document.getElementById('copy-account-btn').addEventListener('click', () => {
+                try {
+                    const accountText = document.getElementById('bank-account-number').textContent.trim();
+                    const tempInput = document.createElement('textarea');
+                    tempInput.value = accountText;
+                    tempInput.setAttribute('readonly', '');
+                    tempInput.style.position = 'fixed';
+                    tempInput.style.opacity = '0';
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    showToast(`Cuenta ${accountText} copiada al portapapeles`);
+                } catch (err) {
+                    console.error('Error al copiar cuenta:', err);
+                    showToast('Copia manualmente el número de cuenta.');
+                }
+            });
+
+            // Descarga del QR Simple como SVG
+            document.getElementById('download-qr-btn').addEventListener('click', () => {
+                try {
+                    const svgEl = document.getElementById('qr-svg-code');
+                    const serializer = new XMLSerializer();
+                    const blob = new Blob([serializer.serializeToString(svgEl)], { type: 'image/svg+xml;charset=utf-8' });
+                    const url = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = 'QR-Simple-Fundacion-CO2.svg';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    URL.revokeObjectURL(url);
+                    showToast('QR Simple descargado correctamente');
+                } catch (err) {
+                    console.error('Error al descargar QR:', err);
+                    showToast('No se pudo descargar la imagen en este navegador.');
+                }
+            });
+
+            /* -------------------------------------------------------------------
+             * 8. FORMULARIO DE CONTACTO FUNCIONAL + WHATSAPP
+             * ------------------------------------------------------------------- */
+            const contactForm = document.getElementById('contact-form');
+            const contactSuccessBox = document.getElementById('contact-success-box');
+
+            contactForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                if (!contactForm.checkValidity()) {
+                    contactForm.reportValidity();
+                    showToast('Revisa los campos obligatorios marcados.');
+                    return;
+                }
+                contactSuccessBox.classList.remove('hidden');
+                contactForm.reset();
+                showToast('Mensaje enviado a Fundación CO2');
+            });
+
+            document.getElementById('send-via-whatsapp-btn').addEventListener('click', () => {
+                const name = document.getElementById('contact-name').value.trim() || 'Visitante web';
+                const subject = document.getElementById('contact-subject').value || 'Consulta general';
+                const message = document.getElementById('contact-message').value.trim() || 'Deseo recibir información sobre Fundación CO2.';
+                const fullText = `Hola Fundación CO2, soy ${name}. Motivo: ${subject}. Mensaje: ${message}`;
+                window.open(`https://wa.me/59174962427?text=${encodeURIComponent(fullText)}`, '_blank', 'noopener,noreferrer');
+            });
+        })();
+    </script>
+</body>
+</html>
